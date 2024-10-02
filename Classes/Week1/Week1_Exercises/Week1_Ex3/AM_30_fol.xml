@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Basic Description of AM 30 fol.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Copenhagen</settlement>
+                  <repository>Den Arnamagnæanske Samling</repository>
+                  <idno>AM 30 fol.</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>AM 30 fol. is a paper manuscript in folio format comprising 56 leaves
+                     gathered into five quires of six conjoint leaves each, with the exception of
+                     the last quire, with consists of four conjoint leaves only. The whole codex is
+                     made of one type of relatively thick laid paper with a "bull's head" watermark.
+                     AM 30 fol. contains two main texts dealing with the Christianization of the
+                     Slavs.</summary>
+                  <msItem>
+                     <title>Chronica Slavorum</title>
+                     <author>Helmold of Bosau</author>
+                  </msItem>
+                  <msItem>
+                     <title>Chronica Slavorum</title>
+                     <author>Arnold of Lübeck</author>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+   <facsimile>
+      <graphic url="picture.jpg"></graphic>
+   </facsimile>
+</TEI>
