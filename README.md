@@ -8,11 +8,12 @@ guidelines to their own projects, as well as how to customise and document their
 research questions. By the end of the course, students will be able to produce customised digital
 editions of texts and catalogue entries for manuscripts.
 
-**Academic year:** 2024/25
-
-**Teacher:** Dr Katarzyna Anna Kapitan
+**Academic year:** 2024/2025
 
 **Time:** Wednesdays, 15:00-17:00 
 
-**Place:**Edith Thomas room, Le bâtiment de recherche nord, Campus Condorcet, 14 Cr des Humanités, 93300 Aubervilliers
+**Place:**  Edith Thomas room, Le bâtiment de recherche nord, Campus Condorcet, 14 Cr des Humanités, 93300 Aubervilliers
+
+**Teacher:** Dr Katarzyna Anna Kapitan
+
 
