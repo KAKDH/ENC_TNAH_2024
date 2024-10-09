@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE myBibliography
+[
+<!ELEMENT myBibliography (publication)>
+<!ELEMENT publication (title, author, date, publicationPlace?, url?)>
+<!ATTLIST publication type CDATA #IMPLIED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT date EMPTY>
+<!ATTLIST date when CDATA #REQUIRED>
+<!ATTLIST date calendar (julian | gregorian | chinese | other) #REQUIRED>
+<!ELEMENT publicationPlace (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+]
+>
+<myBibliography>
+    <publication type="monograph_and_edition">
+        <title>Lost But Not Forgotten: The Saga of Hrómundur and Its Manuscript Transmission</title>
+        <author>Katarzyna Anna Kapitan</author>
+        <date when="2024" calendar="gregorian"/>
+        <publicationPlace>Oxford</publicationPlace>
+        <url>https://ora.ox.ac.uk/objects/uuid:403f3a92-b92c-4d07-8945-d74513c95cac/files/snc580p65b</url>
+    </publication>
+</myBibliography>
+
+

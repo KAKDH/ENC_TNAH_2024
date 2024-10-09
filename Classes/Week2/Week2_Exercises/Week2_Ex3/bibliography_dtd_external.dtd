@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT myBibliography (publication)>
+<!ELEMENT publication (title, author+, date, publicationPlace?, url?)>
+<!ATTLIST publication type CDATA #IMPLIED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT date EMPTY>
+<!ATTLIST date when CDATA #REQUIRED>
+<!ATTLIST date calendar (julian | gregorian | chinese | other) #REQUIRED>
+<!ELEMENT publicationPlace (#PCDATA)>
+<!ELEMENT url (#PCDATA)>

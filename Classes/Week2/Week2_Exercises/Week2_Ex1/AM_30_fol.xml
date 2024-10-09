@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Note this is a mock-up msDesc file for the "Modelling humanities data with TEI-XML: Scholarly editing and manuscript cataloguing in the digital age" course at ENC in 2024. 
+   The file is based on a file created by Katarzyna Anna Kapitan and N. Kıvılcım Yavuz for the "Manuscripts in the Digital Age: XML-Based Catalogues and Editions" course at ESU-DH in 2019, 
+   which in turn is based on the description of AM 30 fol. by Katarzyna Anna Kapitan and N. Kıvılcım Yavuz published on https://handrit.is/manuscript/view/en/AM02-0030. -->
+<!-- This file can be freely used under the CC-BY 4.0 license. -->
+<!-- This file is used for teaching introductory concepts in XML and despite containing some TEI elements it is not a TEI file. -->
+<XML>
+   <fileDesc>
+      <titleStmt>
+         <title>Basic Description of AM 30 fol.</title>
+      </titleStmt>
+      <publicationStmt>
+         <publisher>Katarzyna Anna Kapitan and N. Kıvılcım Yavuz</publisher>
+         <p>This is an open access file licensed under a Creative Commons Attribution CC-BY 4.0
+            International license.</p>
+      </publicationStmt>
+      <sourceDesc>
+         <msDesc>
+            <msIdentifier>
+               <settlement>Copenhagen</settlement>
+               <repository>Den Arnamagnæanske Samling</repository>
+               <idno>AM 30 fol.</idno>
+            </msIdentifier>
+            <msContents>
+               <summary>AM 30 fol. is a paper manuscript in folio format comprising 56 leaves
+                  gathered into five quires of six conjoint leaves each, with the exception of the
+                  last quire, with consists of four conjoint leaves only. The whole codex is made of
+                  one type of relatively thick laid paper with a "bull's head" watermark. AM 30 fol.
+                  contains two main texts dealing with the Christianization of the Slavs.</summary>
+               <msItem n="1">
+                  <title>Chronica Slavorum</title>
+                  <author>Helmold of Bosau</author>
+               </msItem>
+               <msItem n="2">
+                  <title>Chronica Slavorum</title>
+                  <author>Arnold of Lübeck</author>
+               </msItem>
+            </msContents>
+         </msDesc>
+      </sourceDesc>
+   </fileDesc>
+</XML>
