@@ -2,6 +2,10 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--  Note this is a mock-up msDesc file for the "Modelling humanities data with TEI-XML: Scholarly editing and manuscript cataloguing in the digital age" course at ENC in 2024. 
+   The file is based on a file created by Katarzyna Anna Kapitan and N. Kıvılcım Yavuz for the "Manuscripts in the Digital Age: XML-Based Catalogues and Editions" course at ESU-DH in 2019, 
+   which in turn is based on the description of AM 30 fol. by Katarzyna Anna Kapitan and N. Kıvılcım Yavuz published on https://handrit.is/manuscript/view/en/AM02-0030. -->
+<!-- This file can be freely used under the CC-BY 4.0 license. -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -9,7 +13,11 @@
             <title>Basic Description of AM 30 fol.</title>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <publisher>Katarzyna Anna Kapitan and N. Kıvılcım Yavuz</publisher>
+            <availability>
+               <p>This is an open access file licensed under a Creative Commons Attribution CC-BY 4.0
+                  International license.</p>
+            </availability>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
