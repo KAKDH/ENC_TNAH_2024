@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Minimal TEI encoding of page 101 of Shakespeare's First Folio (Bodleian Arch. G
+               c.7)</title>
+         </titleStmt>
+         <publicationStmt>
+            <distributor ref="https://orcid.org/0000-0003-2763-0056">Katarzyna Anna
+               Kapitan</distributor>
+            <pubPlace>Paris</pubPlace>
+            <date when="2024-10-16"/>
+            <availability>
+               <licence>This file is available under a Creative Commons Attribution 4.0 icence: <ref
+                     type="url" target="https://creativecommons.org/licenses/by/4.0/deed.en"
+                     >https://creativecommons.org/licenses/by/4.0/deed.en</ref>.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>The Bodleian First Folio: A digital facsimile of the First Folio of
+                  Shakespeare's plays, <idno>Bodleian Arch. G c.7.</idno></title>
+               <ref type="url" target="http://firstfolio.bodleian.ox.ac.uk/"
+                  >http://firstfolio.bodleian.ox.ac.uk/</ref>
+               <publisher>University of Oxford</publisher>
+               <availability>
+                  <licence>The images and text of the First Folio are released under a Creative
+                     Commons Attribution 3.0 Unported (CC BY 3.0) licence.</licence>
+               </availability>
+               <date/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p> This file has been created by <persName ref="https://orcid.org/0000-0003-2763-0056"
+               >Katarzyna Anna Kapitan</persName> on <date>16 October 2024</date> for the course
+               <title>Modelling humanities data with TEI-XML: Scholarly editing and manuscript
+               cataloguing in the digital age</title> at <orgName
+               ref="https://www.wikidata.org/wiki/Q273570">École nationale des chartes -
+               PSL</orgName> in <placeName ref="https://www.wikidata.org/wiki/Q90"
+            >Paris</placeName>. The transcription uses the materials published on <title>The
+               Bodleian First Folio: A digital facsimile of the First Folio of Shakespeare's
+               plays</title>, <ref type="url" target="http://firstfolio.bodleian.ox.ac.uk/"
+               >http://firstfolio.bodleian.ox.ac.uk/</ref>.</p>
+         <p>The file contains a transcription of page 101, where a new play <title>Much Ado About
+               Nothing</title> begins. The transcription has been divided into Acts and Scenes, as
+            well as columns reflecting the layout of the page. </p>
+         <editorialDecl>
+            <correction status="low">
+               <p>The text has not been corrected.</p>
+            </correction>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2024-10-22">Proofread by <persName
+               ref="https://orcid.org/0000-0003-2763-0056">KAK</persName>.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="play">
+            <pb n="101"/>
+            <head>Much adoe about Nothing.</head>
+            <div type="scene" n="1">
+               <div type="act" n="1">
+                  <head>Actus primus, Scena prima.</head>
+                  <p>
+                     <cb n="1"/> Leonato. Enter Leonato Gouernour of Messina, Innogen his wife, He
+                     ro his daughter, and Beatrice his Neece, with a messenger. I Learne in this
+                     Letter, that Don Peter of Arra gon, comes this night to Messina. Mess. He is
+                     very neere by this: he was not three Leagues off when I left him. Leon. How
+                     many Gentlemen haue you lost in this action? Mess. But few of any sort, and
+                     none of name. Leon. A victorie is twice it selfe, when the atchieuer brings
+                     home full numbers: I finde heere, that Don Pe ter hath bestowed much honor on a
+                     yong Florentine, cal led Claudio. Mess. Much deseru'd on his part, and equally
+                     remem bred by Don Pedro, he hath borne himselfe beyond the promise of his age,
+                     doing in the figure of a Lambe, the feats of a Lion, he hath indeede better
+                     bettred expecta tion, then you must expect of me to tell you how. Leo. He hath
+                     an Vnckle heere in Messina, wil be very much glad of it. Mess. I haue alreadie
+                     deliuered him letters, and there appeares much ioy in him, euen so much, that
+                     ioy could not shew it selfe modest enough, without a badg of bit ternesse. Leo.
+                     Did he breake out into teares? Mess. In great measure. Leo. A kinde ouerflow of
+                     kindnesse, there are no fa ces truer, then those that are so wash'd, how much
+                     bet ter is it to weepe at ioy, then to ioy at weeping? Bea. I pray you, is
+                     Signior Mountanto return'd from the warres, or no? Mess. I know none of that
+                     name, Lady, there was none such in the armie of any sort. Leon. What is he that
+                     you aske for Neece? Hero. My cousin meanes Signior Benedick of Padua Mess. O
+                     he's return'd, and as pleasant as euer he was. Beat. He set vp his bils here in
+                     Messina, &amp; challeng'd Cupid at the Flight: and my Vnckles foole reading the
+                     Challenge, subscrib'd for Cupid, and challeng'd him at the Burbolt. I pray you,
+                     how many hath hee kil'd and eaten in these warres? But how many hath he kil'd?
+                     for indeed, I promis'd to eate all of his killing. Leon. 'Faith Neece, you taxe
+                     Signior Benedicke too much, but hee'l be meet with you, I doubt it not. Mess.
+                     He hath done good seruice Lady in these wars. Beat. You had musty victuall, and
+                     he hath holpe to ease it: he's a very valiant Trencher-man, hee hath an
+                     excellent stomacke. <cb n="2"/> Mess. And a good souldier too Lady. Beat. And a
+                     good souldier to a Lady. But what is he to a Lord? Mess. A Lord to a Lord, a
+                     man to a man, stuft with all honourable vertues. Beat. It is so indeed, he is
+                     no lesse then a stuft man: but for the stuffing well, we are all mortall. Leon.
+                     You must not (sir) mistake my Neece, there is a kind of merry war betwixt
+                     Signior Benedick, &amp; her: they neuer meet, but there's a skirmish of wit
+                     between them. Bea. Alas, he gets nothing by that. In our last con flict, foure
+                     of his fiue wits went halting off, and now is the whole man gouern'd with one:
+                     so that if hee haue wit enough to keepe himselfe warme, let him beare it for a
+                     difference betweene himselfe and his horse: For it is all the wealth that he
+                     hath left, to be knowne a reaso- nable creature. Who is his companion now? He
+                     hath euery month a new sworne brother. Mess. [Is't] possible? Beat. Very easily
+                     possible: he weares his faith but as the fashion of his hat, it euer changes
+                     with yͤ next block. Mess. I see (Lady) the Gentleman is not in your bookes.
+                     Bea. No, and he were, I would burne my study. But I pray you, who is his
+                     companion? Is there no young squarer now, [...]that will make a voyage with him
+                     to the diuell? Mess. He is most in the company of the right noble Claudio.
+                     Beat. O Lord, he will hang vpon him like a disease: he is sooner caught then
+                     the pestilence, and the taker runs presently mad. God helpe the noble Claudio,
+                     if hee haue caught the Benedict, it will cost him a thousand pound ere he be
+                     cur'd. Mess. I will hold friends with you Lady. Bea. Do good friend. Leo. You'l
+                     ne're run mad Neece. Bea. No, not till a hot Ianuary. Mess. Don Pedro is
+                     approach'd. Enter don Pedro, Claudio, Benedicke, Balthasar, and Iohn the
+                     bastard. Pedro. Good Signior Leonato, you are come to meet your trouble: the
+                     fashion of the world is to auoid cost, and you encounter it. Leon. Neuer came
+                     trouble to my house in the likenes of your Grace: for trouble being gone,
+                     comfort should remaine: but when you depart from me, sorrow abides, and
+                     happinesse takes his leaue. </p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

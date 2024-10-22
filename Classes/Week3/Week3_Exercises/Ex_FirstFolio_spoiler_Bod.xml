@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="statement">Much Adoe about Nothing from Mr. William Shakespeares
+                    comedies, histories, &amp; tragedies. Published according to the true originall
+                    copies.</title>
+                <title type="variant">Mr. VVilliam Shakespeares comedies, histories, &amp;
+                    tragedies</title>
+                <title type="distinctive">Bodleian First Folio, Arch. G c.7</title>
+                <author key="LCCNn78095332">Shakespeare, William, 1564-1616.</author>
+                <editor>Heminge, John, approximately 1556-1630</editor>
+                <editor>Condell, Henry, -1627</editor>
+                <respStmt>
+                    <persName>Droeshout, Martin, 1601-</persName>
+                    <resp>engraver</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Jaggard, Isaac, -1627</persName>
+                    <resp>printer</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Blount, Edward, fl. 1594-1632</persName>
+                    <resp>printer</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Jaggard, William, 1569-1623</persName>
+                    <resp>publisher</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Smethwicke, John, -1641</persName>
+                    <resp>publisher</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Aspley, William, -1640</persName>
+                    <resp>publisher</resp>
+                </respStmt>
+                <respStmt xml:id="BDLSS">
+                    <orgName ref="http://www.bodleian.ox.ac.uk/bdlss">Bodleian Digital Library
+                        Systems and Services</orgName>
+                    <resp>creation of electronic edition</resp>
+                </respStmt>
+                <respStmt xml:id="INVIDA">
+                    <orgName ref="http://www.invidasolutions.com/">Invida Trans It Solutions PVT.
+                        LTD.</orgName>
+                    <resp>preliminary keying and encoding by</resp>
+                </respStmt>
+                <respStmt xml:id="PW">
+                    <persName>Pip Willcox</persName>
+                    <resp>project management</resp>
+                    <resp>proofing</resp>
+                    <resp>encoding</resp>
+                </respStmt>
+                <respStmt xml:id="LMC">
+                    <persName>Lucienne Cummings</persName>
+                    <resp>proofing</resp>
+                    <resp>encoding</resp>
+                </respStmt>
+                <respStmt xml:id="JS">
+                    <persName>Judith Siefring</persName>
+                    <resp>proofing</resp>
+                    <resp>encoding</resp>
+                </respStmt>
+                <respStmt xml:id="ES">
+                    <persName>Emma Stanford</persName>
+                    <resp>proofing</resp>
+                    <resp>encoding</resp>
+                </respStmt>
+                <respStmt xml:id="JC">
+                    <persName>James Cummings</persName>
+                    <resp>encoding consultation</resp>
+                </respStmt>
+                <funder>
+                    <ref target="http://shakespeare.bodleian.ox.ac.uk/">Sprint for Shakespeare</ref>
+                    Crowdfunding</funder>
+                <funder>The second phase of the Bodleian First Folio project was made possible by a
+                    lead gift from Dr Geoffrey Eibl-Kaye and generous support from the Sallie
+                    Dickson Memorial Fund/Dallas Shakespeare Club Fund, Mr James Barber, and a
+                    private individual. The Bodleian Libraries are very grateful for this additional
+                    support, which brings new features to the digitized First Folio, enabling more
+                    efficient and intuitive use for all with an interest in Shakespeare, early
+                    modern drama, theatre and book history.</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition n="first"> First publication edition. <date when="2014-04-23">23 April
+                        2014</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="http://www.bodleian.ox.ac.uk/">Bodleian Libraries</orgName>,
+                        <orgName ref="http://www.ox.ac.uk">University of Oxford</orgName>
+                </publisher>
+                <date when="2014-09-11">11 September 2014</date>
+                <authority>
+                    <orgName ref="http://www.bodleian.ox.ac.uk/bdlss" xml:id="bdlss">Bodleian
+                        Digital Library Systems and Services</orgName>
+                </authority>
+                <address>
+                    <addrLine>Osney One Building</addrLine>
+                    <addrLine>Osney Mead</addrLine>
+                    <addrLine>Oxford</addrLine>
+                    <postCode>OX2 0EW</postCode>
+                </address>
+                <availability>
+                    <p> Available for reuse, according to the terms of the <ref
+                            target="http://creativecommons.org/licenses/by/3.0/">Creative Commons
+                            Attribution 3.0 Unported</ref>.</p>
+                </availability>
+                <idno type="url">http://firstfolio.bodleian.ox.ac.uk/</idno>
+                <idno type="url"
+                    >http://solo-aleph.bodleian.ox.ac.uk/?func=direct&amp;doc_number=011814163&amp;format=999&amp;local_base=HOL60</idno>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <author key="LCCNn78095332">Shakespeare, William, 1564-1616.</author>
+                    <title type="statement"> Mr. William Shakespeares comedies, histories, &amp;
+                        tragedies.: Published according to the true originall copies.</title>
+                    <title type="variant">Mr. VVilliam Shakespeares comedies, histories, &amp;
+                        tragedies</title>
+                    <title type="distinctive">First Folio</title>
+                    <pubPlace>
+                        <settlement>London</settlement>, <country>England</country>
+                    </pubPlace>: <publisher>
+                        <persName>William Jaggard</persName>, <persName>Edward Blount</persName>,
+                            <persName>John Smethwicke</persName>
+                    </publisher>
+                    <date type="canonical" when="1623">1623</date>
+                    <date type="entry" when="1623-11-08">8 November 1623 (entered)</date>
+                    <idno type="shelfmark">Bodleian Library, Arch. G c.7</idno>
+                    <idno type="estcCitationNo">S111228</idno>
+                    <idno type="alephSysNo">015592789</idno>
+                    <note type="citation">ESTC, S111228</note>
+                    <note type="citation">Greg, III, p. 1109-12</note>
+                    <note type="citation">Pforzheimer, 905</note>
+                    <note type="citation">STC (2nd ed.), 22273</note>
+                    <note type="citation">Rasmussen, E. &amp; West, A.J. "The Shakespeare First
+                        Folios a descriptive catalogue", Palgrave Macmillan, 2012.</note>
+                    <note type="citation">Hinman, C. The printing and proof-reading of the First
+                        Folio of Shakespeare, Oxford, 1963, p.30</note>
+                    <note type="citation">West, A.J. A Model for Describing Shakespeare First
+                        Folios, With Descriptions of Selected Copies, in The Library, v. s6-21,
+                        Issue 1 (March 1999), p.1-19</note>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <settlement>Oxford</settlement>
+                        <institution>University of Oxford</institution>
+                        <repository>Bodleian Library</repository>
+                        <idno type="shelfmark">Bodleian Library, Arch. G c.7</idno>
+                        <altIdentifier type="previous">
+                            <idno type="shelfmark">S 2.17 Art. [first Bodleian shelfmark,
+                                1624-1664?]</idno>
+                        </altIdentifier>
+                        <altIdentifier type="previous">
+                            <idno type="shelfmark">Arch. F c.13 [superscript z?] [second Bodleian
+                                shelfmark, 1906-?]</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <titlePage>
+                            <docTitle>
+                                <titlePart>M<hi rend="superscript">r</hi> VVILLIAM <lb/>
+                                    <hi rend="large">SHAKESPEARES</hi>
+                                    <lb/>COMEDIES, <lb/>HISTORIES, &amp; <lb/>TRAGEDIES. </titlePart>
+                                <titlePart>Publiſhed according to the True Originall
+                                    Copies.</titlePart>
+
+                            </docTitle>
+
+                            <docImprint>London : Printed by Isaac Iaggard, and Ed. Blount [at the
+                                charges of W. Iaggard, Ed. Blount, I. Smithweeke, and W. Aspley].,
+                                    <docDate>1623</docDate>.</docImprint>
+                        </titlePage>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc>
+                                <support>
+                                    <dimensions>
+                                        <height unit="mm">349</height>
+                                        <width unit="mm">323</width>
+                                    </dimensions>
+                                </support>
+                                <foliation>
+                                    <p>[18], 303, [1], 46, 49-100, [2], 69-232, [2], 79-80, [26],
+                                        76, 79-82, 80-98, [2], 109-156, 257-993 [i.e. 399], [1] p.;
+                                        fol.</p>
+                                    <p>Numbering peculiarities: 1st count: p.50 misnumbered 58; p.59
+                                        misnumbered 51; p.86 misnumbered 88; p.153 misnumbered 151;
+                                        p.161 misnumbered] 163; p.164 misnumbered 162; p. 165
+                                        misnumbered 163; p. 189 misnumbered 187; p. 249 misnumbered
+                                        251; p.250 misnumbered 252; p. 265 misnumbered 273 -- 2nd
+                                        count: p.37 misnumbered 39 in some copies; p.89 misnumbered
+                                        91; p. 90 misnumbered 92 -- 3rd count: p.165-166 numbered
+                                        167 and 168 respectively; p. 216 numbered 218 -- 5th count:
+                                        p. 279 misnumbered 259; p. 282 misnumbered 280; p.308
+                                        misnumbered 38; p. 379 misnumbered 389; p. 399 misnumbered
+                                        993.</p>
+                                </foliation>
+                                <collation>
+                                    <p>The signatures varies between sources, with the most commonly
+                                        cited being Hinman's and West's: 1. Hinman: πA⁶ (πA1+1)
+                                        [πB²], ²A-2B⁶ 2C² a-g⁶ χgg⁸ h-v⁶ x⁴ χ1.2 [para.]-2[para.]⁶
+                                        3[para]¹ aa-ff⁶ gg² Gg⁶ hh⁶ kk-bbb⁶; 2. West: πA⁶ (πA1+1,
+                                        πA5+1.2)²A-2B⁶ 2C² a-g⁶ ²g⁸ h-v⁶ x⁴ 'gg3.4' (±'gg3')
+                                        [para.]-2[para.]⁶ 3[para]¹ 2a-2f⁶ 2g² 2G⁶ 2h⁶ 2k-2v⁶ x⁶
+                                        2y-3b⁶.</p>
+                                    <p>Mis-signed leaves: a3 mis-signed Aa3; ³gg1 mis-signed Gg;
+                                        nn1-nn2 mis-signed Nn and Nn2 and oo1 mis-signed Oo.</p>
+                                    <p>"The life and death of King Iohn" begins new pagination on
+                                        leaf a1 recto; "The tragedy of Coriolanus" begins new
+                                        pagination on leaf aa1 recto.</p>
+                                </collation>
+                                <condition>Lacks A1, the letterpress frontispiece entitled "To the
+                                    reader". The title page is trimmed and mounted, with a section
+                                    of the mount towards the foot of the leaf mutilated resulting in
+                                    the loss of some the Droechout imprint at the bottom left hand
+                                    corner of the portrait and the central section of an early MS
+                                    note. For a full condition report, including a full survey of
+                                    damage and repairs, please contact Rare Books.</condition>
+
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Predominantly printed in double columns.</p>
+                                    <p>Text within simple lined frame.</p>
+                                    <p>Colophon reads: "Printed at the charges of W. Iaggard, Ed.
+                                        Blount, I. Smithweeke, and W. Aspley. 1623.".</p>
+                                    <p>Editors’ dedication signed: Iohn Heminge. Henry Condell.</p>
+                                </layout>
+
+                            </layoutDesc>
+                        </objectDesc>
+                        <decoDesc>
+                            <decoNote>Head- and tail- pieces; initials.</decoNote>
+                            <decoNote>With an engraved title-page portrait of the author signed:
+                                "Martin- Droeshout: sculpsit· London.". The plate exists in 2
+                                states: 1. The earlier state has lighter shading generall ; 2. Later
+                                state has heavier shading, especially around the collar, and minor
+                                differences particularly with the jawline and moustache. The vast
+                                majority of surviving copies have the plate in the second state
+                                which has led some scholars to conclude that the earlier state was a
+                                proof. The portrait in this copy is the second state. </decoNote>
+                        </decoDesc>
+                        <additions>
+                            <p>Two MS verses on first endpaper verso: 1. 9 lines of verse by an
+                                unknown author, first line reads "An active swain to make a leap was
+                                seen". 2. A copy of Ben Jonson’s printed "To the Reader"; MS note on
+                                t.p. (mutilated) appears to read "Honest [Shakes]peare". Minor
+                                annotations on leaf 2n4 (Macbeth). All in an early English hand,
+                                presumably added after leaving the Library.</p>
+                        </additions>
+                        <bindingDesc>
+                            <p>Seventeenth-century (1624) English (Oxford) smooth calf. Bound for
+                                the Bodleian Library by William Wildgoose, with evidence of two
+                                cloth ties, red sprinkled edge. Formerly chained, with evidence of
+                                chain staple at the head of the upper cover. Remains of paper label
+                                at the head of the spine. Enclosed in 20th century book box by
+                                Maltby of Oxford. See S. Gibson in Original Bodleian Copy of First
+                                Folio, p. 12-13. One of four items sent out on 17th February 1624
+                                for binding by Wildgoose containing printed waste from a copy of
+                                Cicero’s "De Officiis, et al." [Deventer: Richard Pafraet, between
+                                1480 and 1485] as paste-downs. For more information on this work
+                                see: Bod. Inc. Cat., C-322.</p>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p>For further details on the printing of this item see Hinman,
+                                Charleton. The printing and proof-reading of the First Folio of
+                                Shakespeare: Oxford, 1963. </p>
+                        </origin>
+                        <acquisition>
+                            <p>Acquired by the Bodleian in 1623, presumably in sheets. It was sent
+                                out to <persName>William Wildgoose</persName> on <date
+                                    when="1624-02-17">17 February 1624</date> for binding (see:
+                                Library Records e.258, fol. 48r) and upon its return chained in Duke
+                                Humfrey at shelfmark S 2.17 Art. It is listed in the Bodleian’s
+                                    <date when="1635">1635</date> catalogue of printed books but was
+                                gone by the publication of the next catalogue in <date when="1674"
+                                    >1674</date>, replaced by the newer <bibl>
+                                    <title>Third Folio</title> (<date when="1664"
+                                    >1664</date>)</bibl>. There is no explicit reference in Library
+                                Records to the disposal of this copy, but there is a record of a
+                                sale of "superfluous library books" to <persName>Richard
+                                    Davis</persName>, a bookseller in Oxford, in <date when="1664"
+                                    >1664</date> for the sum of <num value="24">£24</num>.</p>
+                            <p>After leaving the Bodleian this copy entered the collection of
+                                    <persName>Richard Turbutt</persName> of Ogston Hall, Derbyshire
+                                at some point in the early 18th century. It stayed in the family’s
+                                possession until <date when="1906">1906</date>, when it was
+                                reacquired by the Bodleian for the sum of <num value="3000"
+                                    >£3000</num>, raised by public subscription. For a full
+                                discussion of the rediscovery and purchase of this copy see: F.
+                                Madan, G. M. R. Turbutt and S. Gibson, The Original Bodleian Copy of
+                                the First Folio of Shakespeare (theTurbutt Shakespeare) (Oxford,
+                                1905)</p>
+                            <p>For a full discussion of this copy and the digital version see
+                                http://shakespeare.bodleian.ox.ac.uk/ and West and Rasmussen (2011),
+                                31.</p>
+                        </acquisition>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <listBibl>
+                                <bibl type="digitalFacsimile">Digital facsimile images available at:
+                                        <ref target="http://firstfolio.bodleian.ox.ac.uk/"
+                                        >http://firstfolio.bodleian.ox.ac.uk/</ref>.</bibl>
+                            </listBibl>
+                        </surrogates>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="F-ado-dog">
+                        <persName type="standard">Dogberry, A constable</persName>
+                        <persName type="form">Andrew.</persName>
+                        <persName type="form">Con. Dog.</persName>
+                        <persName type="form">Con. Do.</persName>
+                        <persName type="form">Con.</persName>
+                        <persName type="form">Con</persName>
+                        <persName type="form">Const.</persName>
+                        <persName type="form">Const. Dog.</persName>
+                        <persName type="form">Dog.</persName>
+                        <persName type="form">Dogb.</persName>
+                    </person>
+                    <person xml:id="F-ado-ant">
+                        <persName type="standard">Antonio, Leonato's brother</persName>
+                        <persName type="form">Ant.</persName>
+                        <persName type="form">Anth.</persName>
+                        <persName type="form">Brot.</persName>
+                        <persName type="form">Broth.</persName>
+                        <persName type="form">Brother.</persName>
+                        <persName type="form">Old.</persName>
+                        <persName type="form">Bro.</persName>
+                    </person>
+                    <person xml:id="F-ado-bal">
+                        <persName type="standard">Balthasar, Attendant on Don Pedro</persName>
+                        <persName type="form">Balt.</persName>
+                        <persName type="form">Balth.</persName>
+                    </person>
+                    <person xml:id="F-ado-joh">
+                        <persName type="standard">Don John, The prince's bastard brother</persName>
+                        <persName type="form">Bast.</persName>
+                        <persName type="form">Bastard.</persName>
+                        <persName type="form">Basta.</persName>
+                        <persName type="form">Ioh.</persName>
+                        <persName type="form">Iohn.</persName>
+                    </person>
+                    <person xml:id="F-ado-bea">
+                        <persName type="standard">Beatrice, Niece to Leonato</persName>
+                        <persName type="form">Bea.</persName>
+                        <persName type="form">Beat.</persName>
+                        <persName type="form">Beatr.</persName>
+                        <persName type="form">Beatrice.</persName>
+                    </person>
+                    <person xml:id="F-ado-ben">
+                        <persName type="standard">Benedick, A young lord of Padua</persName>
+                        <persName type="form">Ben.</persName>
+                        <persName type="form">Bene.</persName>
+                        <persName type="form">Bened.</persName>
+                    </person>
+                    <person xml:id="F-ado-her">
+                        <persName type="standard">Hero, Daughter to Leonato</persName>
+                        <persName type="form">Bero.</persName>
+                        <persName type="form">Her.</persName>
+                        <persName type="form">Hero.</persName>
+                    </person>
+                    <person xml:id="F-ado-bor">
+                        <persName type="standard">Borachio, Follower of Don Juan</persName>
+                        <persName type="form">Bor.</persName>
+                        <persName type="form">Bora.</persName>
+                        <persName type="form">Borachio.</persName>
+                    </person>
+                    <person xml:id="F-ado-boy">
+                        <persName type="standard">Boy</persName>
+                        <persName type="form">Boy.</persName>
+                    </person>
+                    <person xml:id="F-ado-cla">
+                        <persName type="standard">Claudio, A young lord of Florence</persName>
+                        <persName type="form">Cla.</persName>
+                        <persName type="form">Clau.</persName>
+                        <persName type="form">Claud.</persName>
+                        <persName type="form">Claudio.</persName>
+                    </person>
+                    <person xml:id="F-ado-con">
+                        <persName type="standard">Conrade, Follower of Don Juan</persName>
+                        <persName type="form">Conr.</persName>
+                    </person>
+                    <person xml:id="F-ado-cow">
+                        <persName type="standard">Cowley</persName>
+                        <persName type="form">Couley.</persName>
+                        <persName type="form">Cowley.</persName>
+                    </person>
+                    <person xml:id="F-ado-fra">
+                        <persName type="standard">Friar Francis</persName>
+                        <persName type="form">Fran.</persName>
+                        <persName type="form">Fri.</persName>
+                        <persName type="form">Frier.</persName>
+                    </person>
+                    <person xml:id="F-ado-ver">
+                        <persName type="standard">Verges, A headborough</persName>
+                        <persName type="form">Head.</persName>
+                        <persName type="form">Headb.</persName>
+                        <persName type="form">Ver.</persName>
+                        <persName type="form">Verg.</persName>
+                        <persName type="form">Verges.</persName>
+                        <persName type="form">erges.</persName>
+                    </person>
+                    <person xml:id="F-ado-kee">
+                        <persName type="standard">Keeper</persName>
+                        <persName type="form">Kee.</persName>
+                        <persName type="form">Keeper.</persName>
+                    </person>
+                    <person xml:id="F-ado-kem">
+                        <persName type="standard">Kemp (Sexton)</persName>
+                        <persName type="form">Kem.</persName>
+                        <persName type="form">Kemp.</persName>
+                    </person>
+                    <person xml:id="F-ado-leo">
+                        <persName type="standard">Leonato, Governor of Messina</persName>
+                        <persName type="form">Leo.</persName>
+                        <persName type="form">Leon.</persName>
+                        <persName type="form">Leona.</persName>
+                        <persName type="form">Leonato.</persName>
+                    </person>
+                    <person xml:id="F-ado-lor">
+                        <persName type="standard">Lord</persName>
+                        <persName type="form">Lo.</persName>
+                        <persName type="form">Lord.</persName>
+                    </person>
+                    <person xml:id="F-ado-mar">
+                        <persName type="standard">Margaret, Gentlewoman attending on Hero</persName>
+                        <persName type="form">Mar.</persName>
+                        <persName type="form">Marg.</persName>
+                        <persName type="form">Marga.</persName>
+                    </person>
+                    <person xml:id="F-ado-mes">
+                        <persName type="standard">Messenger</persName>
+                        <persName type="form">Mess.</persName>
+                        <persName type="form">Messen.</persName>
+                        <persName type="form">Messenger.</persName>
+                    </person>
+                    <person xml:id="F-ado-ped">
+                        <persName type="standard">Don Pedro, Prince of Arragon</persName>
+                        <persName type="form">Ped.</persName>
+                        <persName type="form">Pedr.</persName>
+                        <persName type="form">Pedro.</persName>
+                        <persName type="form">Pri.</persName>
+                        <persName type="form">Prin.</persName>
+                        <persName type="form">Princ.</persName>
+                        <persName type="form">Prince.</persName>
+                    </person>
+                    <person xml:id="F-ado-sex">
+                        <persName type="standard">Sexton</persName>
+                        <persName type="form">Sex.</persName>
+                        <persName type="form">Sext.</persName>
+                        <persName type="form">Sexton.</persName>
+                    </person>
+                    <person xml:id="F-ado-urs">
+                        <persName type="standard">Ursula, Gentlewoman attending on Hero</persName>
+                        <persName type="form">Vrs.</persName>
+                        <persName type="form">Vrsu.</persName>
+                        <persName type="form">Vrsula.</persName>
+                        <persName type="form">rsu.</persName>
+                        <persName type="form">rsula.</persName>
+                    </person>
+                    <person xml:id="F-ado-wat">
+                        <persName type="standard">Watchman</persName>
+                        <persName type="form">Watch</persName>
+                        <persName type="form">Watch.</persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+    <text type="play" xml:id="F-ado">
+        <body>
+            <div type="play" n="6">
+                <pb facs="FFimg:axc0121-0.jpg" n="101"/>
+                <head rend="center">Much adoe about Nothing.</head>
+                <div type="act" n="1">
+                    <div type="scene" n="1">
+                        <head rend="italic center">Actus primus, Scena prima.</head>
+                        <head type="supplied">[Act 1, Scene 1]</head>
+                        <cb n="1"/>
+                        <stage rend="italic center" type="entrance">Enter Leonato Gouernour of
+                            Messina, Innogen his wife, He­ <lb/>ro his daughter, and Beatrice his
+                            Neece, with a messenger.</stage>
+                        <sp who="#F-ado-leo">
+                            <speaker rend="italic center">Leonato.</speaker>
+                            <p n="1"><c rend="decoratedCapital">I</c> Learne in this Letter, that
+                                    <hi rend="italic">Don Peter</hi> of <hi rend="italic">Arra­ <lb
+                                        n="2"/>gon</hi>, comes this night to <hi rend="italic"
+                                    >Messina</hi>.</p>
+                        </sp>
+                        <sp who="#F-ado-mes">
+                            <speaker rend="italic">Mess.</speaker>
+                            <p n="3">He is very neere by this: he was not <lb n="4"/>three Leagues
+                                off when I left him.</p>
+                        </sp>
+                        <sp who="#F-ado-leo">
+                            <speaker rend="italic">Leon.</speaker>
+                            <p n="5">How many Gentlemen haue you lost in this <lb n="6"/>action?</p>
+                        </sp>
+                        <sp who="#F-ado-mes">
+                            <speaker rend="italic">Mess.</speaker>
+                            <p n="7">But few of any sort, and none of name.</p>
+                        </sp>
+                        <sp who="#F-ado-leo">
+                            <speaker rend="italic">Leon.</speaker>
+                            <p n="8">A victorie is twice it selfe, when the atchieuer <lb n="9"
+                                />brings home full numbers: I finde heere, that Don <hi
+                                    rend="italic">Pe­ <lb n="10"/>ter</hi> hath bestowed much honor
+                                on a yong <hi rend="italic">Florentine</hi>, cal­ <lb n="11"/>led
+                                    <hi rend="italic">Claudio</hi>.</p>
+                        </sp>
+                        <sp who="#F-ado-mes">
+                            <speaker rend="italic">Mess.</speaker>
+                            <p n="12">Much deseru'd on his part, and equally remem­ <lb n="13"/>bred
+                                by Don <hi rend="italic">Pedro</hi>, he hath borne himselfe beyond
+                                the <lb n="14"/>promise of his age, doing in the figure of a Lambe,
+                                the <lb n="15"/>feats of a Lion, he hath indeede better bettred
+                                expecta­ <lb n="16"/>tion, then you must expect of me to tell you
+                                how.</p>
+                        </sp>
+                        <sp who="#F-ado-leo">
+                            <speaker rend="italic">Leo.</speaker>
+                            <p n="17">He hath an Vnckle heere in <hi rend="italic">Messina</hi>, wil
+                                be very <lb n="18"/>much glad of it.</p>
+                        </sp>
+                        <sp who="#F-ado-mes">
+                            <speaker rend="italic">Mess.</speaker>
+                            <p n="19">I haue alreadie deliuered him letters, and there <lb n="20"
+                                />appeares much ioy in him, euen so much, that ioy could not <lb
+                                    n="21"/>shew it selfe modest enough, without a badg of bit­ <lb
+                                    n="22"/>ternesse.</p>
+                        </sp>
+                        <sp who="#F-ado-leo">
+                            <speaker rend="italic">Leo.</speaker>
+                            <p n="23">Did he breake out into teares?</p>
+                        </sp>
+                        <sp who="#F-ado-mes">
+                            <speaker rend="italic">Mess.</speaker>
+                            <p n="24">In great measure.</p>
+                        </sp>
+                        <sp who="#F-ado-leo">
+                            <speaker rend="italic">Leo.</speaker>
+                            <p n="25">A kinde ouerflow of kindnesse, there are no fa­ <lb n="26"
+                                />ces truer, then those that are so wash'd, how much bet­ <lb n="27"
+                                />ter is it to weepe at ioy, then to ioy at weeping?</p>
+                        </sp>
+                        <sp who="#F-ado-bea">
+                            <speaker rend="italic">Bea.</speaker>
+                            <p n="28">I pray you, is Signior <hi rend="italic">Mountanto</hi>
+                                return'd from <lb n="29"/>the warres, or no?</p>
+                        </sp>
+                        <sp who="#F-ado-mes">
+                            <speaker rend="italic">Mess.</speaker>
+                            <p n="30">I know none of that name, Lady, there was <lb n="31"/>none
+                                such in the armie of any sort.</p>
+                        </sp>
+                        <sp who="#F-ado-leo">
+                            <speaker rend="italic">Leon.</speaker>
+                            <p n="32">What is he that you aske for Neece?</p>
+                        </sp>
+                        <sp who="#F-ado-her">
+                            <speaker rend="italic">Hero.</speaker>
+                            <p n="33">My cousin meanes Signior Benedick of <hi rend="italic"
+                                    >Padua</hi></p>
+                        </sp>
+                        <sp who="#F-ado-mes">
+                            <speaker rend="italic">Mess.</speaker>
+                            <p n="34">O he's return'd, and as pleasant as euer he was.</p>
+                        </sp>
+                        <sp who="#F-ado-bea">
+                            <speaker rend="italic">Beat.</speaker>
+                            <p n="35">He set vp his bils here in <hi rend="italic">Messina</hi>,
+                                &amp; challeng'd <lb n="36"/>Cupid at the Flight: and my Vnckles
+                                foole reading the <lb n="37"/>Challenge, subscrib'd for Cupid, and
+                                challeng'd him at <lb n="38"/>the Burbolt. I pray you, how many hath
+                                hee kil'd and <lb n="39"/>eaten in these warres? But how many hath
+                                he kil'd? for <lb n="40"/>indeed, I promis'd to eate all of his
+                                killing.</p>
+                        </sp>
+                        <sp who="#F-ado-leo">
+                            <speaker rend="italic">Leon.</speaker>
+                            <p n="41">'Faith Neece, you taxe Signior Benedicke too <lb n="42"/>much,
+                                but hee'l be meet with you, I doubt it not.</p>
+                        </sp>
+                        <sp who="#F-ado-mes">
+                            <speaker rend="italic">Mess.</speaker>
+                            <p n="43">He hath done good seruice Lady in these wars.</p>
+                        </sp>
+                        <sp who="#F-ado-bea">
+                            <speaker rend="italic">Beat.</speaker>
+                            <p n="44">You had musty victuall, and he hath holpe to <lb n="45"/>ease
+                                it: he's a very valiant Trencher‑man, hee hath an <lb n="46"
+                                />excellent stomacke.</p>
+                        </sp>
+                        <cb n="2"/>
+                        <sp who="#F-ado-mes">
+                            <speaker rend="italic">Mess.</speaker>
+                            <p n="47">And a good souldier too Lady.</p>
+                        </sp>
+                        <sp who="#F-ado-bea">
+                            <speaker rend="italic">Beat.</speaker>
+                            <p n="48">And a good souldier to a Lady. But what is he <lb n="49"/>to a
+                                Lord?</p>
+                        </sp>
+                        <sp who="#F-ado-mes">
+                            <speaker rend="italic">Mess.</speaker>
+                            <p n="50">A Lord to a Lord, a man to a man, stuft with <lb n="51"/>all
+                                honourable vertues.</p>
+                        </sp>
+                        <sp who="#F-ado-bea">
+                            <speaker rend="italic">Beat.</speaker>
+                            <p n="52">It is so indeed, he is no lesse then a stuft man: <lb n="53"
+                                />but for the stuffing well, we are all mortall.</p>
+                        </sp>
+                        <sp who="#F-ado-leo">
+                            <speaker rend="italic">Leon.</speaker>
+                            <p n="54">You must not (sir) mistake my Neece, there is <lb n="55"/>a
+                                kind of merry war betwixt Signior Benedick, &amp; her: <lb n="56"
+                                />they neuer meet, but there's a skirmish of wit between <lb n="57"
+                                />them.</p>
+                        </sp>
+                        <sp who="#F-ado-bea">
+                            <speaker rend="italic">Bea.</speaker>
+                            <p n="58">Alas, he gets nothing by that. In our last con­ <lb n="59"
+                                />flict, foure of his fiue wits went halting off, and now is <lb
+                                    n="60"/>the whole man gouern'd with one: so that if hee haue <lb
+                                    n="61"/>wit enough to keepe himselfe warme, let him beare it <lb
+                                    n="62"/>for a difference betweene himselfe and his horse: For it
+                                    <lb n="63"/>is all the wealth that he hath left, to be knowne a
+                                reaso- <lb n="64"/>nable creature. Who is his companion now? He hath
+                                    <lb n="65"/>euery month a new sworne brother.</p>
+                        </sp>
+                        <sp who="#F-ado-mes">
+                            <speaker rend="italic">Mess.</speaker>
+                            <p n="66"><choice>
+                                    <orig>I'st</orig>
+                                    <corr>Is't</corr>
+                                </choice> possible?</p>
+                        </sp>
+                        <sp who="#F-ado-bea">
+                            <speaker rend="italic">Beat.</speaker>
+                            <p n="67">Very easily possible: he weares his faith but as <lb n="68"
+                                />the fashion of his hat, it euer changes with yͤ next block.</p>
+                        </sp>
+                        <sp who="#F-ado-mes">
+                            <speaker rend="italic">Mess.</speaker>
+                            <p n="69">I see (Lady) the Gentleman is not in your <lb n="70"
+                                />bookes.</p>
+                        </sp>
+                        <sp who="#F-ado-bea">
+                            <speaker rend="italic">Bea.</speaker>
+                            <p n="71">No, and he were, I would burne my study. But <lb n="72"/>I
+                                pray you, who is his companion? Is there no young <lb n="73"
+                                />squarer now,<gap extent="1" unit="chars"
+                                    reason="nonstandardCharacter" agent="inkedSpacemarker"
+                                    resp="#ES"/>that will make a voyage with him to the <lb n="74"
+                                />diuell?</p>
+                        </sp>
+                        <sp who="#F-ado-mes">
+                            <speaker rend="italic">Mess.</speaker>
+                            <p n="75">He is most in the company of the right noble <lb n="76"/><hi
+                                    rend="italic">Claudio</hi>.</p>
+                        </sp>
+                        <sp who="#F-ado-bea">
+                            <speaker rend="italic">Beat.</speaker>
+                            <p n="77">O Lord, he will hang vpon him like a disease: <lb n="78"/>he
+                                is sooner caught then the pestilence, and the taker <lb n="79"/>runs
+                                presently mad. God helpe the noble <hi rend="italic">Claudio</hi>,
+                                if hee <lb n="80"/>haue caught the Benedict, it will cost him a
+                                thousand <lb n="81"/>pound ere he be cur'd.</p>
+                        </sp>
+                        <sp who="#F-ado-mes">
+                            <speaker rend="italic">Mess.</speaker>
+                            <p n="82">I will hold friends with you Lady.</p>
+                        </sp>
+                        <sp who="#F-ado-bea">
+                            <speaker rend="italic">Bea.</speaker>
+                            <p n="83">Do good friend.</p>
+                        </sp>
+                        <sp who="#F-ado-leo">
+                            <speaker rend="italic">Leo.</speaker>
+                            <p n="84">You'l ne're run mad Neece.</p>
+                        </sp>
+                        <sp who="#F-ado-bea">
+                            <speaker rend="italic">Bea.</speaker>
+                            <p n="85">No, not till a hot Ianuary.</p>
+                        </sp>
+                        <sp who="#F-ado-mes">
+                            <speaker rend="italic">Mess.</speaker>
+                            <p n="86"><hi rend="italic">Don Pedro</hi> is approach'd.</p>
+                        </sp>
+                        <stage rend="italic center" type="entrance">Enter don Pedro, Claudio,
+                            Benedicke, Balthasar, <lb/>and Iohn the bastard.</stage>
+                        <sp who="#F-ado-ped">
+                            <speaker rend="italic">Pedro.</speaker>
+                            <p n="87">Good Signior <hi rend="italic">Leonato</hi>, you are come to
+                                meet <lb n="88"/>your trouble: the fashion of the world is to auoid
+                                cost, <lb n="89"/>and you encounter it.</p>
+                        </sp>
+                        <sp who="#F-ado-leo">
+                            <speaker rend="italic">Leon.</speaker>
+                            <p n="90">Neuer came trouble to my house in the likenes <lb n="91"/>of
+                                your Grace: for trouble being gone, comfort should <lb n="92"
+                                />remaine: but when you depart from me, sorrow abides, <lb n="93"
+                                />and happinesse takes his leaue.</p>
+                        </sp>
+                        <fw type="sig" place="footCentre">I3</fw>
+                        <fw type="catchword" place="footRight"><hi rend="italic">Pedro.</hi></fw>
+                        <p>[...]<!-- Rest of the file deleted --></p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
