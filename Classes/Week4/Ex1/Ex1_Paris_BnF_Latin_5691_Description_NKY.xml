@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title>France, Paris, Bibliothèque nationale de France, Latin 5691</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>
+               <persName>
+                  <forename>N. Kıvılcım</forename>
+                  <surname>Yavuz</surname>
+                  <email>nky@ku.edu</email>
+                  <affiliation>Kenneth Spencer Research Library, University of Kansas</affiliation>
+                  <idno type="ORCID">0000-0002-2735-9027</idno>
+               </persName>
+            </authority>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Distributed under a
+                  Cretive Commons Attribution-NonCommercial 4.0 International (CC BY-NC
+                  4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="Ms-Paris-BNF-Lat-5691">
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository xml:lang="fr">Bibliothèque nationale de France</repository>
+                  <idno>Latin 5691</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="history" defective="false">
+                     <!-- This is a comment -->
+                     <locus from="1r" to="20v"/>
+                     <author xml:lang="la">Dictys Cretensis</author>
+                     <author>Dictys of Crete</author>
+                     <title type="uniform" xml:lang="la">Ephemeridos belli Troiani</title>
+                     <textLang mainLang="la"/>
+                     <bibl>Dictys Cretensis. Ephemeridos belli Troiani libri. A Lucio Septimio ex
+                        Graeco in Latinum sermonem translati. Accedunt papyri Dictys Graeci in
+                        Aegypto inventae. Ed. Werner Eisenhut. 2nd edn. Bibliotheca scriptorum
+                        Graecorum et Romanorum Teubneriana (Stuttgart: B. G. Teubner, 1973;
+                        1994).</bibl>
+                     <note>This manuscript is not used in the edition.</note>
+                     <decoNote type="initial">There is a six-line decorated boxed initial S on fol.
+                           <locus from="1r" to="1r"/> at the beginning of the translator's
+                        prologue.</decoNote>
+                     <decoNote/>
+                     <msItem n="1.1" defective="false">
+                        <locus from="1r" to="1r"/>
+                        <title type="supplied">Translator’s Prologue</title>
+                        <rubric>Incipit historia belli troiani a gnosio cretense descripta qui fuit
+                           comes idomenei. prologus</rubric>
+                        <incipit>SEptiminus quinto aradio salute<ex>m</ex> dicit. Efemeriden belli
+                           troiani dictis creten <lb/> sis qui in ea militia cu<ex>m</ex> idomeneo
+                           meruit co<ex>n</ex>sc<ex>ri</ex>p<ex>su</ex>nt litt<ex>er</ex>is
+                           punicis</incipit>
+                        <explicit>Tu rufine mi ut par est faue ceptis atq<ex>ue</ex> in legendo
+                           dictin </explicit>
+                        <finalRubric>Explicit prologus</finalRubric>
+                     </msItem>
+                     <msItem n="1.2" defective="false">
+                        <locus from="1r" to="3v">1r-3v</locus>
+                        <title type="supplied">Book I</title>
+                        <rubric>Incipit liber primus</rubric>
+                        <incipit>CUncti reges qui minois iove geniti pronepotes g<ex>re</ex>cie
+                           imperitabant ad dividendas i<ex>n</ex>ter <lb/> se atrei opes
+                              creta<ex>m</ex> co<ex>n</ex>ven<ex>er</ex>e</incipit>
+                        <explicit>Hoc mo<ex>do</ex> ex aulide navigatum est</explicit>
+                        <finalRubric>Historie belli troiani liber primus explicit</finalRubric>
+                     </msItem>
+                     <msItem n="1.3" defective="false">
+                        <locus from="3v" to="9v">3v-9v</locus>
+                        <title type="supplied">Book II</title>
+                        <rubric>Incipit secundus</rubric>
+                        <incipit>POSTQuam admmisso<ex>rum</ex> regionem univ<ex>er</ex>sas classes
+                           uenti appulere <ex>pro</ex>pere omnes signo <lb/> dato naues
+                              litto<ex>r</ex>i admouerunt</incipit>
+                        <explicit>Cete <lb/> rum p<ex>er</ex> id t<ex>em</ex>p<ex>u</ex>s hiemis
+                           sepe Greci atq<ex>ue</ex> troiani sing<ex>u</ex>li pluresue ut fors
+                              even<ex>er</ex>at inter se sine ullo metu in luco thimbrei apollinis
+                           miscebantur</explicit>
+                        <finalRubric>Historie belli troiani liber secundus explicit</finalRubric>
+                     </msItem>
+                     <msItem n="1.4" defective="false">
+                        <locus from="9v" to="12v">9v-12v</locus>
+                        <title type="supplied">Book III</title>
+                        <rubric>Incipit liber tercius</rubric>
+                        <incipit>INterim per totam hyemem dilato conditionibus in tempus bello Greci
+                           cuncta que in tali otio militia exposcebat intenti animo summis studiis
+                           festinabant</incipit>
+                        <explicit>Ita priamus recepto hectoris cadauere ascensoque <lb/> uehiculo
+                           cum his qui secum comittati erant ad troiam redit</explicit>
+                        <finalRubric>Historie belli troiani liber tercius explicit</finalRubric>
+                     </msItem>
+                     <msItem n="1.5" defective="false">
+                        <locus from="12v" to="15v">12v-15v</locus>
+                        <title type="supplied">Book IV</title>
+                        <rubric>Incipit quartus</rubric>
+                        <incipit>SEd postquam troianis palam est regem p<ex>er</ex>fecto negocio
+                           inuiolatum atq<ex>ue</ex> integro <lb/> comitatu regredi
+                           a<ex>d</ex>mirati laudantes q<ex>ue</ex> grecie pietatem ad celum
+                           ferunt</incipit>
+                        <explicit>Ita <ex>com</ex>po<ex>s</ex>ito negotio antenor
+                              tradditoq<ex>ue</ex> sibi thalthibio quo res finem acciperet <lb/> ad
+                           troiam uenit</explicit>
+                        <finalRubric>Historie belli troiani liber quartus explicit</finalRubric>
+                     </msItem>
+                     <msItem n="1.6" defective="false">
+                        <locus from="15v" to="18v">15v-18v</locus>
+                        <title type="supplied">Book V</title>
+                        <rubric>Incipit liber quintus</rubric>
+                        <incipit>ANtenore talthibioq<ex>ue</ex> ciuitate<ex>m</ex> ingressis cuncti
+                           populares sociiq<ex>ue</ex> cognita re p<ex>ro</ex>pere <lb/>
+                           <ex>con</ex>curunt cupientes dignoscere que apud grecos actitata
+                              e<ex>ss</ex>ent</incipit>
+                        <explicit>Nunc reditu<ex>m</ex> n<ex>ost</ex>ro<ex>rum</ex> narrare
+                           libet</explicit>
+                        <finalRubric>Historie belli troiani liber quintus explicit</finalRubric>
+                     </msItem>
+                     <msItem n="1.7" defective="false">
+                        <locus from="18v" to="20v">18v-20v</locus>
+                        <title type="supplied">Book VI</title>
+                        <rubric>Incipit liber sextus</rubric>
+                        <incipit>POstquam impo<ex>s</ex>itis que singuli bello quesierant escendere
+                              ip<ex>s</ex>i solitis anchoralibus <lb/> punere ad egeum
+                           mare</incipit>
+                        <explicit>Ita ulixes ubi uim ingruentium somniorum predictumq<ex>ue</ex> ab
+                              int<ex>er</ex>p<ex>re</ex>tibus vite <lb/> exitum animo recordatus est
+                           uulneratus ab eo quem minime crediderat triduo post morte<ex>m</ex> obiit
+                           <lb/> senior iam prouectaeq<ex>ue</ex> etatis neq<ex>ue</ex> tamen
+                              i<ex>n</ex>ualidus UIRIUM</explicit>
+                        <finalRubric>Historie belli troiani liber sextus explicit</finalRubric>
+                     </msItem>
+                  </msItem>
+                  <msItem n="2" class="history" defective="false">
+                     <locus from="21r" to="42v">21r-42v</locus>
+                     <author xml:lang="la">Publius Flavius Vegetius Renatus</author>
+                     <title type="uniform">De re militari</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <bibl>Flavi Vegeti Renati Epitoma rei militaris. Ed. Karl Lang. 2nd edn.
+                        Bibliotheca scriptorum Graecorum et Romanorum Teubneriana (Leipzig: B. G.
+                        Teubner, 1885; 1967).</bibl>
+                     <note>This manuscript is not used in the edition.</note>
+                     <decoNote>There is an eight-line decorated boxed initial P on fol. <locus
+                           from="21r" to="21r">21r</locus> at the beginning of the text.</decoNote>
+                     <incipit>PRIMUS liber electionem edocet iuniorum ex quibus locis u<ex>e</ex>l
+                        quales mili <lb/> tes p<ex>ro</ex>bandi sint aut quibus armo<ex>rum</ex>
+                           g<ex>e</ex>n<ex>er</ex>ibus exercitus imbuendi</incipit>
+                     <explicit>Fla<ex>uius</ex> Eutropius emendauit sine exempla<ex>r</ex>io
+                           <ex>con</ex>stantinopoli <ex>con</ex>sul valentinano aug<ex>ustus</ex>
+                        vii et abieni</explicit>
+                     <finalRubric>Explicit Vegetius de re militari</finalRubric>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                           <num type="front-flyleaf" value="2"/>
+                           <num type="book-block" value="42"/>
+                           <num type="end-flyleaf" value="2"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="320"/>
+                              <width unit="mm" quantity="230"/>
+                           </dimensions>
+                        </support>
+                        <foliation>Foliated 1-42 in dark brown ink on the top right corner of each
+                           recto.</foliation>
+                        <collation>I-III (10), IV (2).</collation>
+                        <condition>The manuscript shows signs of damage from water on the lower part
+                           of its leaves but generally is in good condition.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="37">
+                           <dimensions type="written">
+                              <height unit="mm" quantity="270"/>
+                              <width unit="mm" quantity="180"/>
+                           </dimensions>
+                           <catchwords>There are decorated horizontal catchwords at center in lower
+                              margins on fols <locus from="10v" to="10v"/>, <locus from="30v"
+                                 to="30v"/> and <locus from="40v" to="40v"/>.</catchwords>
+                           <signatures>The three catchwords found in the middle of the lower margins
+                              of the leaves serve as quire signatures.</signatures>
+                           <secFol>cum hecuba materni</secFol>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote script="gothic-textura">The manuscript is written in gothic textura
+                        by a single hand, <name type="person" role="scribe">Pantaleon da
+                           Crema</name>.</handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote type="paragraphMark">There are paragraph marks in red signalling the
+                        beginning of sentences throughout the manuscript.</decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>There are marginal annotations and corrections on fols <locus from="6r"
+                           to="6r"/>, <locus from="12v" to="12v"/>, <locus from="13r" to="13r"/>,
+                           <locus from="13v" to="13v"/>, <locus from="14r" to="14r"/> by different
+                        hands.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="true">
+                        <p>Modern. Quarter leather and paperboard binding with marbled
+                           pastedowns.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1390" notAfter="1400">The end of the fourteenth
+                        century.</origDate>
+                     <origPlace cert="high"><name type="place">Pavia</name>, Italy.</origPlace>
+                  </origin>
+                  <provenance> There is an owership mark on fol. <locus from="42v" to="42v"
+                        >42v</locus> that reads <q>Iste liber est mei Angelli de Sanguineis de
+                        Roma</q>, indicating that the manuscript was owned by <name type="owner"
+                        >Angelo de Sanguineis de Roma</name>.</provenance>
+                  <provenance>France, Paris, Bibliothèque nationale de France, Latin 8025 was also
+                     written by <name type="person" role="scribe">Pantalemone da Crema</name> and
+                     owned by <name type="person" role="owner">Angelo de Sanguineis de Roma</name>. </provenance>
+                  <provenance>The manuscript was later in the possession of the Visconti family,
+                     also based in <name type="place">Pavia</name>.</provenance>
+                  <acquisition>The manuscript was acquired by the Bibliothèque nationale de France
+                     in Paris from the library of King <name type="person" role="owner">Henry
+                        IV</name>.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>First catalogued on <date when="2019-07-20">July 20, 2019</date> by
+                              <name type="person" role="researcher">N. Kıvılcım Yavuz</name> to be
+                           used as part of manuscript description exercises of the "Manuscripts in
+                           the Digital Age: XML-Based Catalogues and Editions" Workshop. </source>
+                        <change>Updated <date when="2021-08-01">August 1, 2021</date> by <name
+                              type="person" role="researcher">N. Kıvılcım Yavuz</name>. Information
+                           may be incomplete or incorrect.</change>
+                        <change>Some attributes updated <date when="2024-10-22">October 22, 2024</date> by <name type="person" role="researcher">Katarzyna Anna Kapitan</name>.</change>
+                     </recordHist>
+                  </adminInfo>
+                  <surrogates><p>A facsimile of the manuscript is available on <ref type="url"
+                           target="https://gallica.bnf.fr/ark:/12148/btv1b52510370p"
+                        >Gallica</ref>.</p></surrogates>
+                  <listBibl>
+                     <bibl>Charles R. Shrader. "A Handlist of Extant Manuscripts Containing the De
+                        Re Militari of Flavius Vegetius Renatus." Scriptorium 33.2 (1979):
+                        280–305.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>
