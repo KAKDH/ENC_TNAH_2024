@@ -44,9 +44,11 @@
                         Graeco in Latinum sermonem translati. Accedunt papyri Dictys Graeci in
                         Aegypto inventae. Ed. Werner Eisenhut. 2nd edn. Bibliotheca scriptorum
                         Graecorum et Romanorum Teubneriana (Stuttgart: B. G. Teubner, 1973;
-                        1994).</bibl>
-                     <note>This manuscript is not used in the edition.</note>
-                     <decoNote type="initial">There is a six-line decorated boxed initial S on fol.
+                        1994). 
+                        <note>This manuscript is not used in the edition.</note>
+                     </bibl>
+                     <decoNote type="initial">
+                        There is a six-line decorated boxed initial S on fol.
                            <locus from="1r" to="1r"/> at the beginning of the translator's
                         prologue.</decoNote>
                      <decoNote/>
@@ -144,12 +146,15 @@
                      <textLang mainLang="la">Latin</textLang>
                      <bibl>Flavi Vegeti Renati Epitoma rei militaris. Ed. Karl Lang. 2nd edn.
                         Bibliotheca scriptorum Graecorum et Romanorum Teubneriana (Leipzig: B. G.
-                        Teubner, 1885; 1967).</bibl>
-                     <note>This manuscript is not used in the edition.</note>
+                        Teubner, 1885; 1967). 
+                        <note>This manuscript is not used in the edition.</note>
+                     </bibl>
                      <decoNote>There is an eight-line decorated boxed initial P on fol. <locus
                            from="21r" to="21r">21r</locus> at the beginning of the text.</decoNote>
-                     <incipit>PRIMUS liber electionem edocet iuniorum ex quibus locis u<ex>e</ex>l
-                        quales mili <lb/> tes p<ex>ro</ex>bandi sint aut quibus armo<ex>rum</ex>
+                     <incipit>
+                        PRIMUS liber electionem edocet iuniorum ex quibus locis u<ex>e</ex>l
+                        quales mili 
+                        <lb/> tes p<ex>ro</ex>bandi sint aut quibus armo<ex>rum</ex>
                            g<ex>e</ex>n<ex>er</ex>ibus exercitus imbuendi</incipit>
                      <explicit>Fla<ex>uius</ex> Eutropius emendauit sine exempla<ex>r</ex>io
                            <ex>con</ex>stantinopoli <ex>con</ex>sul valentinano aug<ex>ustus</ex>
