@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % menota_entities SYSTEM 'menota_entities.txt'>
+%menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <!-- Enter a title here. -->
+            </title>
+         </titleStmt>
+         <publicationStmt>
+            <p>
+               <!-- Enter publication information here. -->
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Ireland</country>
+                  <settlement>Dublin</settlement>
+                  <repository>Trinity College </repository>
+                  <idno>IE TCD 11500</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <!-- Note that the text below is from the 1873 edition of the De excidio Troiae historia and may be different to some extent from the manuscript text you are transcribing. -->
+            <p> XIV. Deinde ornati cum classe Graeci Athenas convenerunt: Agamemnon ex Mycenis cum
+               navibus numero C, Menelaus ex Sparta cum navibus numero LX, Arcesilaus et Prothoenor
+               ex Boeotia cum navibus numero L, Ascalaphus et Ialmenus ex Orchomeno cum navibus
+               numero XXX, Epistrophus et Schedius ex Phocide cum navibus numero XL, Aiax Telamonius
+               ex Salamina adduxit secum Teucrum fratrem, ex Buprasione Amphimachum Diorem Thalpium
+               Polyxenum cum navibus numero XL, Nestor ex Pylo cum navibus numero LXXX, Thoas ex
+               Aetolia cum navibus numero XL, Nireus ex Syme cum navibus numero LIII, Aiax Oileus ex
+               Locris cum navibus numero XXXVII, Antiphus et Phidippus ex Calydna cum navibus numero
+               XXX, Idomeneus et Meriones ex Creta cum navibus numero LXXX, Ulixes ex Ithaca cum
+               navibus numero XII, Eumelus ex Pheris cum navibus numero X, Protesilaus et Podarces
+               ex Phylaca cum navibus numero XL, Podalirius et Machaon Aesculapii filii ex Tricca
+               cum navibus numero XXXII, Achilles cum Patroclo et Myrmidonibus ex Phthia cum navibus
+               numero L, Tlepolemus ex Rhodo cum navibus numero IX, Eurypylus ex Ormenio navibus
+               numero XL, Antiphus et Amphimachus ex Elide navibus numero XI, Polypoetes et Leonteus
+               ex Argisa navibus numero XL, Diomedes Euryalus Sthenelus ex Argis navibus numero
+               LXXX, Philoctetes ex Melibea navibus numero VII, Guneus ex Cypho navibus numero XXI,
+               Prothous ex Magnesia navibus numero XL, Agapenor ex Arcadia navibus numero XL,
+               Menestheus ex Athenis navibus numero L. Hi fuerunt duces Graecorum numero XLVIIII,
+               qui adduxerunt naves numero mille CXXX.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
