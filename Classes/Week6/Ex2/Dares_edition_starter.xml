@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI 
+[<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Starter file for an edition of chapter 14 of Dares Phrygius' <title
+                  type="uniform">The History of the destruction of Troy</title> according to <ref
+                  type="ms">Cod. Haen. 3518</ref> with variants from other manuscripts</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>N. Kıvılcım Yavuz and Katarzyna Anna Kapitan</publisher>
+            <date when="2021-08-12">12 August 2021.</date>
+            <availability status="free">
+               <licence>Distributed under a
+                  Cretive Commons Attribution-NonCommercial 4.0 International (CC BY-NC
+                  4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>Germany</country>
+                        <settlement>Leeipzig</settlement>
+                        <repository>Universitätsbibliothek</repository>
+                        <idno>Cod. Haen. 3518</idno>
+                     </msIdentifier>
+                     <msContents>
+                        <msItem n="1" class="history" defective="false">
+                           <locus from="1ra" to="9rb"/>
+                           <author>Dares Phrygius</author>
+                           <title type="uniform">De excidio Troiae historia</title>
+                           <textLang mainLang="la">Latin</textLang>
+                        </msItem>
+                     </msContents>
+                  </msDesc>
+               </witness>
+               <witness xml:id="B">Germany, Munich, Bayerische Staatsbibliothek, Clm 305</witness>
+               <witness xml:id="C">Ireland, Dublin, Trinity College IE TOD 11500</witness>
+               <witness xml:id="D">Switzrland, St. Gall, Cod. Sang. 197</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="chapter" n="14">
+            <pb n="4v"/>
+            <cb n="b"/>
+            <lb n="7"/>
+            <!-- Below you have first sentance of chapter 14 according to the Leipzig text with encoded variants from texts perserved in 4 mss  -->
+            <p>
+               <app>
+                  <lem wit="#A">Igitur</lem>
+                  <rdg wit="#B #C #D">Deinde</rdg>
+               </app>
+               <app>
+                  <lem wit="#A #C #D"/>
+                  <rdg wit="#B">hii omnes</rdg>
+               </app>
+               <app>
+                  <lem wit="#A #C"/>
+                  <rdg wit="#B #D">ornati</rdg>
+               </app>
+               <app>
+                  <lem wit="#A"/>
+                  <rdg wit="#B #C #D">cum</rdg>
+               </app>
+               <app>
+                  <lem wit="#A">class</lem>
+                  <rdg wit="#B #C">classe</rdg>
+                  <rdg wit="#D">classibus</rdg>
+               </app>
+               <app>
+                  <lem wit="#A">ornata. greci</lem>
+                  <rdg wit="#B #C #D"/>
+               </app> 
+               athenas
+               <app>
+                  <lem wit="#A #D">conuen<ex>er</ex>unt</lem>
+                  <rdg wit="#B #C">perueneerunt</rdg>
+               </app>
+               <app>
+                  <lem wit="#A #B #D"/>
+                  <rdg wit="#C">greci</rdg>
+               </app>
+            </p>
+            <!-- Below you have plain text transcription of the remaining text of chapter 14 according to Leipzig text -->
+            <!-- It is your task to encode the variants in this part -->
+            <p> Ex micenis agamennon cum nauibus centum Ex sparta menelaus cum nauibus lx Ex boetia
+               archesilaus et prothenor et penelus cum nauibus l Ex orchomeno aschaliphus et
+               alimenus cum nauibus xxx Ex phocide epistrophus et scedius cum nauibus xl Ex salamina
+               aiax thelamonius adducens secum theucrum fratrem suum bublationem amphimacum cum
+               nauibus xl Dein talphius et diores cum amphimaco et polixeno elide aulide aliisque
+               ciuitatibus regionis illius cum nauibus xl Polimestor cum nauibus xc Nestor ex philo
+               cum nauibus lxxx Thoas ex etholia cum nauibus xl Aiax locrus cum nauibus xxxvii Ex
+               calidone amtippus et philippus cum nauibus xxx Ex omni creta idomeneus cum merione
+               cum nauibus lxxx Ulixes ex ithaca cum nauibus xxii Ex rhodo protheus magnus et
+               depolemus aliisque circa eam insula cum nauibus lxix Ex philaca prothesilaus et
+               potarcus cum nauibus xl Emelus foronius cum nauibus x Podalirius et machaon tricenses
+               filii escholapii ad sciti ad id bellum obsollertiam medicine artis Ex pelasgo
+               achilles cum patroclo et cum mirimidonibus cum nauibus l Euripylus orchomenius cum
+               nauibus xl Ex larissa leontheus et polypoetes cum nauibus xl Ex etholia et thebes
+               thessandrus polynicis cum nauibus l Ex argis diomedes eurisalus et stenelus cum
+               nauibus lxxx Ex meliboea philocteta cum nauibus vii Ex cypro gineus cum nauibus xxii
+               Ex magnesia prothodorus cum nauibus xl Ex acarnania chalcas cum nauibus xx Ex
+               achadema thelephus cum nauibus lxxx Ex archadia agapenor cum nauibus xl Ex athenis
+               mnesteus cum nauibus l hii fuerunt duces grecorum numero xlvii qui adduxerunt naues
+               mille ccxxx. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

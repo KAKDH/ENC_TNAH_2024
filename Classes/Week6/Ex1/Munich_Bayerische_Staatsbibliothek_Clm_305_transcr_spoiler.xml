@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription of Dares, chapter 14 (spoiler)</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Katarzyna Anna Kapitan and N. Kıvılcım Yavuz
+            </publisher>
+            <date when="2021-08-10">10 August 2021</date>
+            <availability>
+               <licence>CC-BY 4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Munich</settlement>
+                  <repository>Bayerische Staatsbibliothek</repository>
+                  <idno>Clm 305</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="chapter" n="14">
+            <pb n="6r" facs="Germany_Munich_Bayerische_Staatsbibliothek_Clm_305_6r.jpg"/>
+            <p><lb n="4"/> De&inodot;nde h&inodot;&inodot; om<choice>
+                  <am>&bar;</am>
+                  <ex>ne</ex>
+               </choice>&slong; ornati cu<choice>
+                  <am>&bar;</am>
+                  <ex>m</ex>
+               </choice> cla&slong;&slong;e athe<lb n="5"/>na&slong; p<choice>
+                  <am>&barbl;</am>
+                  <ex>er</ex>
+               </choice>uenerunt. Agamennon ex m&inodot;cen&inodot;&slong; cu<choice>
+                  <am>&bar;</am>
+                  <ex>m</ex>
+               </choice> nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> numer<choice>
+                  <am>&bar;</am>
+                  <ex>o</ex>
+               </choice><lb n="6"/> .c. Menelau&slong; ex &slong;parta nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> numero .lx. Archelau&slong; <choice>
+                  <am>&amp;</am>
+                  <ex>et</ex>
+               </choice> P<choice>
+                  <am>&barbl;</am>
+                  <ex>ro</ex>
+               </choice><lb n="7"/>tenor ex boet&inodot;a nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> numero .l. A&slong;calofu&slong; <choice>
+                  <am>&amp;</am>
+                  <ex>et</ex>
+               </choice> Alimen<choice>
+                  <am>&us;</am>
+                  <ex>us</ex>
+               </choice> ex <lb n="8"/> orcomeno nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> numero .xxx. Epi&slong;trofu&slong; <choice>
+                  <am>&amp;</am>
+                  <ex>et</ex>
+               </choice> &slong;ced&inodot;u&slong; ex pho<lb n="9"/>c&inodot;den nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> numero .xl. Aiax telamoniu&slong; ex &slong;alam&inodot;na <lb n="10"/>
+               adduxit &slong;ecu<choice>
+                  <am>&bar;</am>
+                  <ex>m</ex>
+               </choice> teuchru<choice>
+                  <am>&bar;</am>
+                  <ex>m</ex>
+               </choice> fratre<choice>
+                  <am>&bar;</am>
+                  <ex>m</ex>
+               </choice> bublat&inodot;one<choice>
+                  <ex>m</ex>
+               </choice> amphimachu<choice>
+                  <am>&bar;</am>
+                  <ex>m</ex>
+               </choice>
+               <lb n="11"/> doriu<choice>
+                  <am>&bar;</am>
+                  <ex>m</ex>
+               </choice> te&slong;iu<choice>
+                  <am>&bar;</am>
+                  <ex>m</ex>
+               </choice> polixenu<choice>
+                  <am>&bar;</am>
+                  <ex>m</ex>
+               </choice> nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> num<choice>
+                  <am>&bar;</am>
+                  <ex>ero</ex>
+               </choice> .xl. Ne&slong;tor ex p&inodot;lo nau&inodot;<lb n="12"/>bus num<choice>
+                  <am>&bar;</am>
+                  <ex>ero</ex>
+               </choice> .lxxx. Thoas ex ethol&inodot;a nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> num<choice>
+                  <am>&bar;</am>
+                  <ex>ero</ex>
+               </choice> .xl. A&inodot;ax c&inodot;le<lb n="13"/>u&slong; ex locr&inodot;&slong; nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> num<choice>
+                  <am>&bar;</am>
+                  <ex>ero</ex>
+               </choice> .xxx.vii. Ant&inodot;ppu&slong; ph&inodot;l&inodot;ppu&slong; tho<lb n="14"
+               />a&slong; ex calcedone nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> num<choice>
+                  <am>&bar;</am>
+                  <ex>ero</ex>
+               </choice> .xxx. Idomeneu&slong; <choice>
+                  <am>&amp;</am>
+                  <ex>et</ex>
+               </choice> mer&inodot;o<lb n="15"/>ne&slong; ex Creta nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> num<choice>
+                  <am>&bar;</am>
+                  <ex>ero</ex>
+               </choice> .lxxx. Ul&inodot;xe&slong; ex Itacha nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> nu<lb n="16"/>mero .xl. Emel&inodot;u&slong; ex P&inodot;rgi&slong; nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> num<choice>
+                  <am>&bar;</am>
+                  <ex>ero</ex>
+               </choice> .x. Prote&slong;&inodot;lau&slong; <choice>
+                  <am>&amp;</am>
+                  <ex>et</ex>
+               </choice> p<choice>
+                  <am>&barbl;</am>
+                  <ex>ro</ex>
+               </choice><lb n="17"/>tarcu&slong; ex p&inodot;laga nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> num<choice>
+                  <am>&bar;</am>
+                  <ex>ero</ex>
+               </choice> .xl. Podal&inodot;r&inodot;u&slong; <choice>
+                  <am>&amp;</am>
+                  <ex>et</ex>
+               </choice> machaon <lb n="18"/> e&slong;colaph&inodot; f&inodot;l&inodot;&inodot;
+               ectr&inodot;c&inodot; nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> num<choice>
+                  <am>&bar;</am>
+                  <ex>ero</ex>
+               </choice> .xxx.&inodot;&inodot;. Ach&inodot;lle&slong; cu<choice>
+                  <am>&bar;</am>
+                  <ex>m</ex>
+               </choice> patro<lb n="19"/>clo <choice>
+                  <am>&amp;</am>
+                  <ex>et</ex>
+               </choice> m&inodot;rm&inodot;don&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> ex p&inodot;th&inodot;a nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> num<choice>
+                  <am>&bar;</am>
+                  <ex>ero</ex>
+               </choice> .l. Tr&inodot;ptolem<choice>
+                  <am>&us;</am>
+                  <ex>us</ex>
+               </choice> ex <lb n="20"/> rodon&inodot; nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> num<choice>
+                  <am>&bar;</am>
+                  <ex>ero</ex>
+               </choice> .viiii. Eur&inodot;ph&inodot;lu&slong; ex orcomeno nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice>
+               <lb n="21"/> num<choice>
+                  <am>&bar;</am>
+                  <ex>ero</ex>
+               </choice> .xl. Xant&inodot;ppu&slong; <choice>
+                  <am>&amp;</am>
+                  <ex>et</ex>
+               </choice> amph&inodot;macu&slong; ex &inodot;l&inodot;den nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> num<choice>
+                  <am>&bar;</am>
+                  <ex>ero</ex>
+               </choice>
+               <lb n="22"/> .xii. Pol&inodot;bete&slong; <choice>
+                  <am>&amp;</am>
+                  <ex>et</ex>
+               </choice> leont&inodot;u&slong; ex lari&slong;a nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> num<choice>
+                  <am>&bar;</am>
+                  <ex>ero</ex>
+               </choice> .xl. Diomedes <lb n="23"/> cur&slong;alu&slong; &slong;teneu&slong; ex
+               arg&inodot;&slong; nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> num<choice>
+                  <am>&bar;</am>
+                  <ex>ero</ex>
+               </choice> .lxxx. Ph&inodot;loc&inodot;ne&slong; <lb n="24"/> ex mel&inodot;bea nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> num<choice>
+                  <am>&bar;</am>
+                  <ex>ero</ex>
+               </choice> .vii. Cuneu&slong; ex c&inodot;pro nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> num<choice>
+                  <am>&bar;</am>
+                  <ex>ero</ex>
+               </choice>
+               <lb n="25"/> .xxi. Protoel&inodot;u&slong; ex magne&slong;&inodot;a nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> num<choice>
+                  <am>&bar;</am>
+                  <ex>ero</ex>
+               </choice> .xl. Agapenor <lb n="26"/> ex archad&inodot;a nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> num<choice>
+                  <am>&bar;</am>
+                  <ex>ero</ex>
+               </choice> .xl. Mentheu&slong; ex athen&inodot;&slong; nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice>
+               <lb n="27"/> num<choice>
+                  <ex>ero</ex>
+               </choice> .l. Creneu&slong; ex pilo nau&inodot;b<choice>
+                  <am>&usbase;</am>
+                  <ex>us</ex>
+               </choice> num<choice>
+                  <am>&bar;</am>
+                  <ex>ero</ex>
+               </choice> .xxii. Hii fuerunt du<lb n="28"/>ce&slong; grecoru<choice>
+                  <am>&bar;</am>
+                  <ex>m</ex>
+               </choice> num<choice>
+                  <am>&bar;</am>
+                  <ex>ero</ex>
+               </choice> .xl.viiii. q<choice>
+                  <am>&inodotsup;</am>
+                  <ex>ui</ex>
+               </choice> adduxerunt naue&slong; num<choice>
+                  <am>&bar;</am>
+                  <ex>ero</ex>
+               </choice> mil<lb n="29"/>le .c.xxx. </p>
+         </div>
+      </body>
+   </text>
+</TEI>
