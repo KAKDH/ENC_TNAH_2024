@@ -12,8 +12,6 @@ editions of texts and catalogue entries for manuscripts.
 
 **Time:** Wednesdays, 15:30-17:30 
 
-**Place:**  Edith Thomas room, Le bâtiment de recherche nord, Campus Condorcet, 14 Cr des Humanités, 93300 Aubervilliers
-
 **Teacher:** Dr Katarzyna Anna Kapitan
 
 
