@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE xml [<!ENTITY listWit     SYSTEM "listWit.xml">]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Edition of chapter 14 of Dares Phrygius <title type="uniform">The History of the
+                  destruction of Troy</title> according to Cod. Haen. 3518 with variants from other
+               manuscripts</title>
+            <author>N. Kıvılcım Yavuz</author>
+            <author>Katarzyna Anna Kapitan</author>
+            <meeting>Manuscripts in the Digital Age Workshop at ESU DH 2021</meeting>
+         </titleStmt>
+         <publicationStmt>
+            <authority>N. Kıvılcım Yavuz and Katarzyna Anna Kapitan</authority>
+            <date when="2021-08-12">Last updated August 12, 2021.</date>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Distributed under a
+                  Cretive Commons Attribution-NonCommercial 4.0 International (CC BY-NC
+                  4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc> &listWit; </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="chapter" n="14">
+            <pb n="4v"/>
+            <cb n="b"/>
+            <lb n="7"/>
+            <p>
+               <app>
+                  <lem wit="#A">Igitur</lem>
+                  <rdg wit="#B #C #D">Deinde</rdg>
+               </app>
+               <app>
+                  <lem wit="#A #C #D"/>
+                  <rdg wit="#B">hii omnes</rdg>
+               </app>
+               <app>
+                  <lem wit="#A #C"/>
+                  <rdg wit="#B #D">ornati</rdg>
+               </app>
+               <app>
+                  <lem wit="#A"> </lem>
+                  <rdg wit="#B #C #D">cum</rdg>
+               </app>
+               <app>
+                  <lem wit="#A">class</lem>
+                  <rdg wit="#B #C">classe</rdg>
+                  <rdg wit="#D">classibus</rdg>
+               </app>
+               <app>
+                  <lem wit="#A">ornata. greci</lem>
+                  <rdg wit="#B #C #D"/>
+               </app> athenas <app>
+                  <lem wit="#A #D">conuen<ex>er</ex>unt</lem>
+                  <rdg wit="#B #C">perueneerunt</rdg>
+               </app>
+               <app>
+                  <lem wit="#A #B #D"/>
+                  <rdg wit="#C">greci</rdg>
+               </app>
+               <app>
+                  <lem wit="#A">Ex micenis. agame<sic>nn</sic>on</lem>
+                  <rdg wit="#B #C #D">Agamennon ex micenis</rdg>
+               </app> cum nauib<ex>us</ex>
+               <app>
+                  <lem wit="#A"/>
+                  <rdg wit="#B #C #D">numero</rdg>
+               </app> centu<ex>m</ex>. <app>
+                  <lem wit="#A">Ex sparta</lem>
+                  <rdg wit="#B #C #D">Menelaus</rdg>
+               </app> . <app>
+                  <lem wit="#A">menelaus</lem>
+                  <rdg wit="#B #C #D">ex sparta</rdg>
+               </app>
+               <app>
+                  <lem wit="#A #C #D">cu<ex>m</ex></lem>
+                  <rdg wit="#B"/>
+               </app> nauib<ex>us</ex>
+               <app>
+                  <lem wit="#A"/>
+                  <rdg wit="#B #C #D">numero</rdg>
+               </app> .lx. <app>
+                  <lem wit="#A">Ex boetia archesilaus.</lem>
+                  <rdg wit="#B #C #D">Archelaus et Protenor</rdg>
+               </app>
+               <app>
+                  <lem wit="#A">et <ex>pro</ex>thenor. et penelus. </lem>
+                  <rdg wit="#B #D">ex boetia</rdg>
+                  <rdg wit="#C">ex pelens ex Boetia</rdg>
+               </app>
+               <app>
+                  <lem wit="#A #C #D">cu<ex>m</ex></lem>
+                  <rdg wit="#B"/>
+               </app> nauib<ex>us</ex>
+               <app>
+                  <lem wit="#A"/>
+                  <rdg wit="#B #C #D">numero</rdg>
+               </app>
+               <app>
+                  <lem wit="#A #B #D">.l.</lem>
+                  <rdg wit="#C">lx</rdg>
+               </app>
+               <app>
+                  <lem wit="#A">Ex orchomeno</lem>
+                  <rdg wit="#B">Ascallofus et Alimenus</rdg>
+                  <rdg wit="#D">Ascalophus et Alumnus</rdg>
+                  <rdg wit="#C"/>
+               </app>
+               <app>
+                  <lem wit="#A">aschal<sic>a</sic>phus. et alimen<ex>us</ex>. </lem>
+                  <rdg wit="#B #D">ex orcomeno </rdg>
+                  <rdg wit="#C"/>
+               </app>
+               <app>
+                  <lem wit="#A">cu<ex>m</ex></lem>
+                  <rdg wit="#B #C #D"/>
+               </app>
+               <app>
+                  <lem wit="#A #B #D">nauib<ex>us</ex></lem>
+                  <rdg wit="#C"/>
+               </app>
+               <app>
+                  <lem wit="#A #C"/>
+                  <wit wit="#B #D">numero</wit>
+               </app>
+               <app>
+                  <lem wit="#A #B #D">xxx.</lem>
+                  <rdg wit="#C"/>
+               </app>
+               <app>
+                  <lem wit="#A">Ex phocide.</lem>
+                  <rdg wit="#B #D">Epistrofus et scedius </rdg>
+                  <rdg wit="#C">Epicrophus et scidius </rdg>
+               </app>
+               <app>
+                  <lem wit="#A">epistrophus. et scedi<ex>us</ex></lem>
+                  <rdg wit="#B">ex phociden</rdg>
+                  <rdg wit="#C">ex palide</rdg>
+                  <rdg wit="#D">phodicenno</rdg>
+               </app>. <app>
+                  <lem wit="#A">cu<ex>m</ex></lem>
+                  <rdg wit="#B #C #D"/>
+               </app> nauib<ex>us</ex>
+               <app>
+                  <lem wit="#A"/>
+                  <rdg wit="#B #C #D">numero</rdg>
+               </app> xl. <app>
+                  <lem wit="#A">Ex salamina. aiax thelamoni<ex>us</ex></lem>
+                  <rdg wit="#B #D">Aiax telamonius ex salamina</rdg>
+                  <rdg wit="#C">Aiax telamonis ex salamina</rdg>
+               </app>
+               <app>
+                  <lem wit="#A">adducens</lem>
+                  <rdg wit="#B #C #D">adduxit</rdg>
+               </app> secum theucru<ex>m</ex> fr<ex>atr</ex>em <app>
+                  <lem wit="#A">suum</lem>
+                  <rdg wit="#B #C #D"/>
+               </app>. <app>
+                  <lem wit="#A #B">bublatione<ex>m</ex></lem>
+                  <rdg wit="#C">bublatorem</rdg>
+                  <rdg wit="#D">bubationem</rdg>
+               </app>. amphimacum. <app>
+                  <lem wit="#A"/>
+                  <rdg wit="#B #C #D">dorium tesium polixenum</rdg>
+               </app>
+               <app>
+                  <lem wit="#A"> cu<ex>m</ex></lem>
+                  <rdg wit="#B #C #D"/>
+               </app> nauib<ex>us</ex>
+               <app>
+                  <lem wit="#A"/>
+                  <rdg wit="#B #C #D">numero</rdg>
+               </app> .xl. <app>
+                  <lem wit="#A">Dein talphius et diores cu<ex>m</ex> amphimaco et polixeno. elide.
+                     aulide aliisq<ex>ue</ex> ciuitatib<ex>us</ex> regionis illius. cu<ex>m</ex>
+                        nauib<ex>us</ex> .xl. </lem>
+                  <rdg wit="#B #C #D"/>
+               </app>
+               <app>
+                  <lem wit="#A">Polimestor. </lem>
+                  <rdg wit="#B #D"/>
+                  <rdg wit="#C">Polinestor</rdg>
+               </app>
+               <app>
+                  <lem wit="#A #C">cum nauib<ex>us</ex></lem>
+                  <rdg wit="#B #D"/>
+               </app>
+               <app>
+                  <lem wit="#A #B #D"/>
+                  <rdg wit="#C">numero</rdg>
+               </app>
+               <app>
+                  <lem wit="#A #C #D">.xc.</lem>
+                  <rdg wit="#B"/>
+               </app> Nestor ex philo. <app>
+                  <lem wit="#A">cu<ex>m</ex></lem>
+                  <rdg wit="#B #C #D"/>
+               </app> nauib<ex>us</ex>
+               <app>
+                  <lem wit="#A"/>
+                  <rdg wit="#B #C #D">numero</rdg>
+               </app> .lxxx. Thoas ex <app>
+                  <lem wit="#A #B #D">etholia. </lem>
+                  <rdg wit="#C">colio</rdg>
+               </app>
+               <app>
+                  <lem wit="#A">cu<ex>m</ex></lem>
+                  <rdg wit="#B #C #D"/>
+               </app> nauib<ex>us</ex>
+               <app>
+                  <lem wit="#A"/>
+                  <rdg wit="#B #C #D">numero</rdg>
+               </app>
+               <app>
+                  <lem wit="#A #B #D">.xl. </lem>
+                  <rdg wit="#C">xxxviii</rdg>
+               </app>
+               <app>
+                  <lem wit="#A #B #C"/>
+                  <rdg wit="#D">Uenerius ex imi nauibus numero quinquaginta tribus </rdg>
+               </app>
+               <app>
+                  <lem wit="#A #B #D">Aiax </lem>
+                  <rdg wit="#C"/>
+               </app>
+               <app>
+                  <lem wit="#A">locrus</lem>
+                  <rdg wit="#B">cileus ex locris</rdg>
+                  <rdg wit="#C"/>
+                  <rdg wit="#D">oilevs ex locris</rdg>
+               </app>. <app>
+                  <lem wit="#A">cu<ex>m</ex></lem>
+                  <rdg wit="#B #C #D"/>
+               </app>
+               <app>
+                  <lem wit="#A #B #D">nauib<ex>us</ex></lem>
+                  <rdg wit="#C"/>
+               </app>
+               <app>
+                  <lem wit="#A #C"/>
+                  <rdg wit="#B #D">numero</rdg>
+               </app>
+               <app>
+                  <lem wit="#A #B #D">.xxxvii.</lem>
+                  <rdg wit="#C"/>
+               </app>
+               <app>
+                  <lem wit="#A">Ex calidone.</lem>
+                  <rdg wit="#B #D">Antippus philippus thoas</rdg>
+                  <rdg wit="#C">Antipus philippus et toas </rdg>
+               </app>
+               <app>
+                  <lem wit="#A">amtipp <ex>us</ex> et philippus</lem>
+                  <rdg wit="#B">ex calcedone </rdg>
+                  <rdg wit="#C">ex calidone </rdg>
+                  <rdg wit="#D">ex caledona</rdg>
+               </app>. <app>
+                  <lem wit="#A">cu<ex>m</ex></lem>
+                  <rdg wit="#B #C #D"/>
+               </app>
+               <app>
+                  <lem wit="#A #B #D">nauib<ex>us</ex></lem>
+                  <rdg wit="#C">nauium</rdg>
+               </app>
+               <app>
+                  <lem wit="#A"/>
+                  <rdg wit="#B #C #D">numero</rdg>
+               </app>
+               <app>
+                  <lem wit="#A #B #D">.xxx.</lem>
+                  <rdg wit="#C">xxxviii</rdg>
+               </app>
+               <app>
+                  <lem wit="#A">Ex om<ex>n</ex>i creta. </lem>
+                  <rdg wit="#B #D">Idomeneus et meriones</rdg>
+                  <rdg wit="#C">Idomenius et meremones</rdg>
+               </app>
+               <app>
+                  <lem wit="#A">idomeneus cu<ex>m</ex> merione</lem>
+                  <rdg wit="#B #C #D">ex creta</rdg>
+               </app>. <app>
+                  <lem wit="#A">cu<ex>m</ex></lem>
+                  <rdg wit="#B #C #D"/>
+               </app>
+               <app>
+                  <lem wit="#A #B #D">nauib<ex>us</ex>
+                  </lem>
+                  <rdg wit="#C">nauium</rdg>
+               </app>
+               <app>
+                  <lem wit="#A"/>
+                  <rdg wit="#B #C #D">numero</rdg>
+               </app> .lxxx. <app>
+                  <lem wit="#A #B #D">Ulixes</lem>
+                  <rdg wit="#C">Lixes</rdg>
+               </app> ex <app>
+                  <lem wit="#A #B">ithaca</lem>
+                  <rdg wit="#C">ithica</rdg>
+                  <rdg wit="#D">itacha</rdg>
+               </app>. <app>
+                  <lem wit="#A">cu<ex>m</ex></lem>
+                  <rdg wit="#B #C #D"/>
+               </app>
+               <app>
+                  <lem wit="#A #B #D">nauib<ex>us</ex>
+                  </lem>
+                  <rdg wit="#C">nanium</rdg>
+               </app>
+               <app>
+                  <lem wit="#A"/>
+                  <rdg wit="#B #C #D">numero</rdg>
+               </app>
+               <app>
+                  <lem wit="#A">.xxii.</lem>
+                  <rdg wit="#B #D">xl</rdg>
+                  <rdg wit="#C">xv</rdg>
+               </app>
+               <app>
+                  <lem wit="#A">Ex rhodo. <ex>pro</ex>theus magn<ex>us</ex>. et depolemus
+                        aliisq<ex>ue</ex> circa eam insul<ex>a</ex>. cu<ex>m</ex> nauib<ex>us</ex>
+                     .lxxx. </lem>
+                  <rdg wit="#B">Emelius </rdg>
+                  <rdg wit="#C"/>
+                  <rdg wit="#D">Emelvs</rdg>
+               </app>
+               <app>
+                  <lem wit="#A #C"/>
+                  <rdg wit="#B #D">ex pirgis nauibus numero x</rdg>
+               </app>
+               <app>
+                  <lem wit="#A">Ex philaca.</lem>
+                  <rdg wit="#B #C">Protesilaus et protarcus</rdg>
+                  <rdg wit="#D">Protelaus et potarcus </rdg>
+               </app>
+               <app>
+                  <lem wit="#A"><ex>pro</ex>thesilaus et potarc<ex>us</ex>. </lem>
+                  <rdg wit="#B">ex pilaga</rdg>
+                  <rdg wit="#C">ex pilica</rdg>
+                  <rdg wit="#D">ex pilaca</rdg>
+               </app>
+               <app>
+                  <lem wit="#A">cu<ex>m</ex></lem>
+                  <rdg wit="#B #C #D"/>
+               </app>
+               <app>
+                  <lem wit="#A #B #D">nauib<ex>us</ex></lem>
+                  <rdg wit="#C">nauium</rdg>
+               </app>
+               <app>
+                  <lem wit="#A"/>
+                  <rdg wit="#B #C #D">numero</rdg>
+               </app> .xl. <app>
+                  <lem wit="#A">Emelus foroni<ex>us</ex>. cu<ex>m</ex> nauib<ex>us</ex> x.</lem>
+                  <rdg wit="#B #D"/>
+                  <rdg wit="#C">Animedius ex piris nauiu(m) nu(mer)o x</rdg>
+               </app>
+               <app>
+                  <lem wit="#A #B #D">Podalirius et machaon </lem>
+                  <rdg wit="#C">Podani(us) (et) machano </rdg>
+               </app>
+               <app>
+                  <lem wit="#A">tricensesfilii escholapii </lem>
+                  <rdg wit="#B">escolaphi filii ectrici </rdg>
+                  <rdg wit="#C">ex colapi filii(us) ex t(er)ci </rdg>
+                  <rdg wit="#D">excolapi fisi iextrici</rdg>
+               </app>
+               <app>
+                  <lem wit="#A">ad sciti ad id bellu<ex>m</ex> obsollertiam medicine artis </lem>
+                  <rdg wit="#C">nauiu(m) nu(mer)o xxxiii</rdg>
+                  <rdg wit="#B #D">nauib(us) numero xxxii</rdg>
+               </app>
+               <app>
+                  <lem wit="#A">Ex pelasgo</lem>
+                  <rdg wit="#B #C">Achilles cum patroclo et mirmidonibus </rdg>
+                  <rdg wit="#D">Achilles cum patroclo </rdg>
+               </app>. <app>
+                  <lem wit="#A">achilles cum patroclo et cu<ex>m</ex> mirimidonib<ex>us</ex></lem>
+                  <rdg wit="#B">ex pithia</rdg>
+                  <rdg wit="#C">ex perto</rdg>
+                  <rdg wit="#D"/>
+               </app>. <app>
+                  <lem wit="#A">cum </lem>
+                  <rdg wit="#B #C"/>
+                  <rdg wit="#C">numero</rdg>
+               </app>
+               <app>
+                  <lem wit="#A #B #D">nauib<ex>us</ex></lem>
+                  <rdg wit="#C">nauium</rdg>
+               </app>
+               <app>
+                  <lem wit="#A #C"/>
+                  <rdg wit="#B #D">numero</rdg>
+               </app> .l. <app>
+                  <lem wit="#A #B #C"/>
+                  <rdg wit="#D">simulex mirmidonibus</rdg>
+               </app> Euripylus <app>
+                  <lem wit="#A"/>
+                  <rdg wit="#B #C #D">ex</rdg>
+               </app>
+               <app>
+                  <lem wit="#A">orchomeni<ex>us</ex></lem>
+                  <rdg wit="#B">orcomeno</rdg>
+                  <rdg wit="#C">aconina</rdg>
+                  <rdg wit="#D">orco</rdg>
+               </app>. <app>
+                  <lem wit="#A">cu<ex>m</ex></lem>
+                  <rdg wit="#B #C #D"/>
+               </app> nauib<ex>us</ex>
+               <app>
+                  <lem wit="#A"/>
+                  <rdg wit="#B #C #D">num<ex>ero</ex></rdg>
+               </app>
+               <app>
+                  <lem wit="#A #B #C">.xl.</lem>
+                  <rdg wit="#D">xlx</rdg>
+               </app>
+               <app>
+                  <lem wit="#A"/>
+                  <rdg wit="#B #D #C">xantippus <ex>et</ex> amphimacus ex iliden nauib<ex>us</ex>
+                        num<ex>ero</ex></rdg>
+               </app>
+               <app>
+                  <lem wit="#A"/>
+                  <rdg wit="#B">xii</rdg>
+                  <rdg wit="#C">xl</rdg>
+                  <rdg wit="#D">xi</rdg>
+               </app>
+              Ex larissa. leontheus et polypoetes. cu <ex>m</ex> nauib <ex>us</ex> xl. Ex
+               etholia et thebes. thessandrus polynicis. cu <ex>m</ex> nauib <ex>us</ex> .l. Ex
+               argis diomedes. eurisalus. et stenelus. cu <ex>m</ex> nauib <ex>us</ex> .lxxx. Ex
+               meliboea. philocteta. cu <ex>m</ex> nau <ex>ibus</ex> .vii. Ex cypro. gineus cu
+                  <ex>m</ex> nau <ex>ibus</ex> .xxii. Ex magnesia. <ex>pro</ex>thodorus c
+                  <ex>um</ex> nau <ex>ibus</ex> xl. Ex acarnania. chalcas. cu <ex>m</ex> nau
+                  <ex>ibus</ex> .xx. Ex achadema. thelephus. cum nauib <ex>us</ex> .lxxx. Ex
+               archadia. agapenor. cu <ex>m</ex> nauib <ex>us</ex> .xl. Ex athenis. mnesteus. cu
+                  <ex>m</ex> nauib<ex>us</ex> .l. hii fuer<ex>un</ex>t duces greco<ex>rum</ex>
+                  num<ex>er</ex>o xlvii. qui adduxerunt naues .m <ex>ille</ex> . ccx.xxx.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

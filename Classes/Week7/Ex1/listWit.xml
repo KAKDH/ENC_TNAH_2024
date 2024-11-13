@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listWit>
+   <witness xml:id="A">
+      <msDesc>
+         <msIdentifier>
+            <country>Germany</country>
+            <settlement>Leeipzig</settlement>
+            <repository>Universitätsbibliothek</repository>
+            <idno>Cod. Haen. 3518</idno>
+         </msIdentifier>
+         <msContents>
+            <msItem n="1" class="history" defective="false">
+               <locus from="1ra" to="9rb"/>
+               <author>Dares Phrygius</author>
+               <title type="uniform">De excidio Troiae historia</title>
+               <textLang mainLang="la">Latin</textLang>
+            </msItem>
+         </msContents>
+      </msDesc>
+   </witness>
+   <witness xml:id="B">Germany, Munich, Bayerische Staatsbibliothek, Clm 305</witness>
+   <witness xml:id="C">Ireland, Dublin, Trinity College IE TOD 11500</witness>
+   <witness xml:id="D">Switzrland, St. Gall, Cod. Sang. 197</witness>
+</listWit>
