@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription of Chapter 14 of the De excidio Troiae historia according to the
+               1873 Teubner edition.</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>
+               <!-- Enter publication information here. -->
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Dares of Phrygia. Daretis Phrygii. De excidio Troiae historia. Edited by Ferdinand
+               Meister. Bibliotheca scriptorum Graecorum et Romanorum Teubneriana (Leipzig: B. G.
+               Teubner, 1873).</bibl>
+            <listPerson>
+               <person xml:id="Aga_001">
+                  <persName>Agamemnon</persName>
+                  <idno type="wikidata">Q128176</idno>
+                  <note>King of Mycenae; son of Atreus in Greek mythology.</note>
+               </person>
+            </listPerson>
+            <listPlace>
+               <place xml:id="Athe_001">
+                  <placeName>Athens</placeName>
+                  <location>
+                     <geo>37.9839 23.7278</geo>
+                     <!-- lat long -->
+                  </location>
+                  <idno type="wikidata">Q1524</idno>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="chapter" n="14">
+            <p>
+               <s>Deinde ornati cum classe Graeci <placeName ref="#Athe_001">Athenas</placeName> convenerunt:</s>
+               <s><persName ref="#Aga_001">Agamemnon</persName> ex <placeName>Mycenis</placeName> cum navibus numero 
+                  <num type="ship" value="100">C</num>,</s> 
+               <s>Menelaus ex Sparta cum navibus numero LX,</s>
+               <s>Arcesilaus et Prothoenor ex Boeotia cum navibus numero L,</s> Ascalaphus et Ialmenus ex
+               Orchomeno cum navibus numero XXX, Epistrophus et Schedius ex Phocide cum navibus
+               numero XL, Aiax Telamonius ex Salamina adduxit secum Teucrum fratrem, ex Buprasione
+               Amphimachum Diorem Thalpium Polyxenum cum navibus numero XL, Nestor ex Pylo cum
+               navibus numero LXXX, Thoas ex Aetolia cum navibus numero XL, Nireus ex Syme cum
+               navibus numero LIII, Aiax Oileus ex Locris cum navibus numero XXXVII, Antiphus et
+               Phidippus ex Calydna cum navibus numero XXX, Idomeneus et Meriones ex Creta cum
+               navibus numero LXXX, Ulixes ex Ithaca cum navibus numero XII, Eumelus ex Pheris cum
+               navibus numero X, Protesilaus et Podarces ex Phylaca cum navibus numero XL,
+               Podalirius et Machaon Aesculapii filii ex Tricca cum navibus numero XXXII, Achilles
+               cum Patroclo et Myrmidonibus ex Phthia cum navibus numero L, Tlepolemus ex Rhodo cum
+               navibus numero IX, Eurypylus ex Ormenio navibus numero XL, Antiphus et Amphimachus ex
+               Elide navibus numero XI, Polypoetes et Leonteus ex Argisa navibus numero XL, Diomedes
+               Euryalus Sthenelus ex Argis navibus numero LXXX, Philoctetes ex Melibea navibus
+               numero VII, Guneus ex Cypho navibus numero XXI, Prothous ex Magnesia navibus numero
+               XL, Agapenor ex Arcadia navibus numero XL, Menestheus ex Athenis navibus numero L. Hi
+               fuerunt duces Graecorum numero XLVIIII, qui adduxerunt naves numero mille CXXX. </p>
+         </div>
+      </body>
+   </text>
+</TEI>
