@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlDoc> 
+<header><p>Para in header</p></header>
+<text ana="myText">
+    <div n="1">
+        <p n="1.1">Para 1 in section 1</p>
+        <p n="1.2">Para 2 in section 1</p>
+    </div>
+    <div n="2">
+        <p n="2.1">Para 1 in section 2</p>
+        <p n="2.2">Para 2 in section 2</p>
+    </div>
+    <div n="3">
+        <p n="3.1">Para 1 in section 3</p>
+        <p n="3.2">Para 2 in section 3</p>
+    </div>
+</text>
+</xmlDoc>

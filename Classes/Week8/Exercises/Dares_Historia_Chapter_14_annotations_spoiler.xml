@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Transcription of Chapter 14 of the De excidio Troiae historia according to the
+               1873 Teubner edition, with names of people, places and number of ships
+               annotated.</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>N. Kıvılcım Yavuz, University of Kansas and Katarzyna Anna Kapitan,
+               University of Copenhagen </authority>
+            <date when="2021-08-10">Last updated August 10, 2021.</date>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Distributed under a
+                  Cretive Commons Attribution-NonCommercial 4.0 International (CC BY-NC
+                  4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPlace>
+               <place xml:id="Athe_001">
+                  <placeName>Athens</placeName>
+                  <location>
+                     <geo>37.9839 23.7278</geo>
+                     <!-- lat long -->
+                  </location>
+               </place>
+               <place xml:id="Myce_001">
+                  <placeName>Mycenae</placeName>
+                  <location>
+                     <geo>37.7307 22.7563</geo>
+                     <!-- lat long -->
+                  </location>
+               </place>
+               <place xml:id="Spar_001">
+                  <placeName>Sparta</placeName>
+                  <location>
+                     <geo>37.081944 22.423611</geo>
+                     <!-- lat long -->
+                  </location>
+               </place>
+               <place xml:id="Boeo_001">
+                  <placeName>Boetia</placeName>
+                  <location>
+                     <geo>38.416667 23.083333</geo>
+                     <!-- lat long -->
+                  </location>
+               </place>
+               <place xml:id="Orch_001">
+                  <placeName>Orchomenos</placeName>
+                  <location>
+                     <geo>38.483333 22.983333</geo>
+                  </location>
+               </place>
+               <place xml:id="Phoc_001">
+                  <placeName>Phocis</placeName>
+                  <location>
+                     <geo>38.5 22.25</geo>
+                  </location>
+               </place>
+               <place xml:id="Sala_001">
+                  <placeName>Salamina</placeName>
+                  <location>
+                     <geo>37.933333 23.5</geo>
+                  </location>
+               </place>
+               <place xml:id="Bupr_001">
+                  <placeName>Buprasion</placeName>
+                  <location>
+                     <desc>The geo references are for Pyrgos, Elis</desc>
+                     <geo>37.666667 21.433333</geo>
+                  </location>
+               </place>
+               <place xml:id="Pylo_001">
+                  <placeName>Pylos</placeName>
+                  <location>
+                     <geo>36.916667 21.7</geo>
+                  </location>
+               </place>
+               <place xml:id="Aeto_001">
+                  <placeName>Aetolia</placeName>
+                  <location>
+                     <geo>38.2 22.5</geo>
+                  </location>
+               </place>
+               <place xml:id="Syme_001">
+                  <placeName>Syme</placeName>
+                  <location>
+                     <geo>36.583333 27.833333</geo>
+                  </location>
+               </place>
+               <place xml:id="Locr_001">
+                  <placeName>Locris</placeName>
+                  <location>
+                     <desc>The geo references are for Atalanti</desc>
+                     <geo>38.65 23</geo>
+                  </location>
+               </place>
+               <place xml:id="Caly_001">
+                  <placeName >Calydna</placeName>
+                  <location>
+                     <geo>36.750652 28.835859</geo>
+                  </location>
+               </place>
+               <place xml:id="Cret_001">
+                  <placeName>Crete</placeName>
+                  <location>
+                     <geo>35.21 24.91</geo>
+                  </location>
+               </place>
+               <place xml:id="Itha_001">
+                  <placeName>Ithaca</placeName>
+                  <location>
+                     <geo>38.366667 20.716667</geo>
+                  </location>
+               </place>
+               <place xml:id="Pher_001">
+                  <placeName>Pherae</placeName>
+                  <location>
+                     <geo>39.384163 22.737728</geo>
+                  </location>
+               </place>
+               <place xml:id="Phyl_001">
+                  <placeName >Phylaca</placeName>
+                  <location>
+                     <geo>39.241202 22.601194</geo>
+                  </location>
+               </place>
+               <place xml:id="Tric_001">
+                  <placeName >Tricca</placeName>
+                  <location>
+                     <geo>39.558752 21.762589</geo>
+                  </location>
+               </place>
+               <place xml:id="Phth_001">
+                  <placeName>Phthia</placeName>
+                  <location>
+                     <geo>38.9 22.533333</geo>
+                  </location>
+               </place>
+               <place xml:id="Rhod_001">
+                  <placeName>Rhodes</placeName>
+                  <location>
+                     <geo>36.166667 27.933333</geo>
+                  </location>
+               </place>
+               <place xml:id="Orme_001">
+                  <placeName>Ormenio</placeName>
+                  <location>
+                     <geo>41.716667 26.216667</geo>
+                  </location>
+               </place>
+               <place xml:id="Elid_001">
+                  <placeName>Elis</placeName>
+                  <location>
+                     <geo>37.666667 21.5</geo>
+                  </location>
+               </place>
+               <place  xml:id="Argi_001">
+                  <placeName>Argisa</placeName>
+                  <location>
+                     <geo>39.65986 22.34118</geo>
+                  </location>
+               </place>
+               <place xml:id="Argi_002">
+                  <placeName>Argos</placeName>
+                  <location>
+                     <geo>37.616667 22.716667</geo>
+                  </location>
+               </place>
+               <place xml:id="Meli_001">
+                  <placeName>Melibea</placeName>
+                  <desc>The coordinates are for Pelion</desc>
+                  <location>
+                     <geo>39.438611 23.046389</geo>
+                  </location>
+               </place>
+               <place xml:id="Cyph_001">
+                  <placeName >Cyphos</placeName>
+                  <location>
+                     <geo>39.65986 22.34118</geo>
+                  </location>
+               </place>
+               <place xml:id="Magn_001">
+                  <placeName>Magnesia</placeName>
+                  <location>
+                     <geo>39.416667 22.833333</geo>
+                  </location>
+               </place>
+               <place xml:id="Arca_001">
+                  <placeName>Arcadia</placeName>
+                  <location>
+                     <geo>37.583333 22.25</geo>
+                  </location>
+               </place>
+            </listPlace>
+            <listPerson>
+               <person xml:id="Aga_001">
+                  <persName>Agamemnon</persName>
+               </person>
+               <person xml:id="Men_001">
+                  <persName>Menelaus</persName>
+               </person>
+               <person xml:id="Arc_001">
+                  <persName>Arcesilaus</persName>
+               </person>
+               <person xml:id="Pro_001">
+                  <persName>Prothoenor</persName>
+               </person>
+               <person xml:id="Asc_001">
+                  <persName>Ascalaphus</persName>
+               </person>
+               <person xml:id="Ial_001">
+                  <persName>Ialmenusus</persName>
+               </person>
+               <person xml:id="Epi_001">
+                  <persName>Epistrophus</persName>
+               </person>
+               <person xml:id="Sch_001">
+                  <persName>Schedius</persName>
+               </person>
+               <person xml:id="Aia_001">
+                  <persName>Aiax Telamonius</persName>
+               </person>
+               <person xml:id="Teu_001">
+                  <persName>Teucrus</persName>
+               </person>
+               <person>
+                  <persName xml:id="Amp_001">Amphimachus</persName>
+               </person>
+               <person>
+                  <persName xml:id="Dio_001">Diores</persName>
+               </person>
+               <person>
+                  <persName xml:id="Tha_001">Thalpius</persName>
+               </person>
+               <person>
+                  <persName xml:id="Pol_001">Polyxenus</persName>
+               </person>
+               <person>
+                  <persName xml:id="Nes_001">Nestor</persName>
+               </person>
+               <person>
+                  <persName xml:id="Tho_001">Thoas</persName>
+               </person>
+               <person>
+                  <persName xml:id="Nie_001">Nierus</persName>
+               </person>
+               <person>
+                  <persName xml:id="Aia_002">Aiax Oileus</persName>
+               </person>
+               <person>
+                  <persName xml:id="Ant_001">Antiphus</persName>
+               </person>
+               <person>
+                  <persName xml:id="Phi_001">Phidippus</persName>
+               </person>
+               <person>
+                  <persName xml:id="Ido_001">Idomeneus</persName>
+               </person>
+               <person>
+                  <persName xml:id="Mer_001">Meriones</persName>
+               </person>
+               <person>
+                  <persName xml:id="Uli_001">Ulixes</persName>
+               </person>
+               <person>
+                  <persName xml:id="Eum_001">Eumelus</persName>
+               </person>
+               <person>
+                  <persName xml:id="Pro_002">Protesilaus</persName>
+               </person>
+               <person>
+                  <persName xml:id="Pod_001">Podacres</persName>
+               </person>
+               <person>
+                  <persName xml:id="Pod_002">Podalirius</persName>
+               </person>
+               <person>
+                  <persName xml:id="Mac_001">Machaon</persName>
+               </person>
+               <person>
+                  <persName xml:id="Ach_001">Achilles</persName>
+               </person>
+               <person>
+                  <persName xml:id="Pat_001">Patroclo</persName>
+               </person>
+               <person>
+                  <persName xml:id="Tle_001">Tlepolemus</persName>
+               </person>
+               <person>
+                  <persName xml:id="Eur_001">Eurypylus</persName>
+               </person>
+               <person>
+                  <persName xml:id="Ant_002">Antiphus</persName>
+               </person>
+               <person>
+                  <persName xml:id="Amp_002">Amphimachus</persName>
+               </person>
+               <person>
+                  <persName xml:id="Pol_002">Polypoetes</persName>
+               </person>
+               <person>
+                  <persName xml:id="Leo_001">Leonteus</persName>
+               </person>
+               <person>
+                  <persName xml:id="Dio_002">Diomedes</persName>
+               </person>
+               <person>
+                  <persName xml:id="Eur_002">Euryalus</persName>
+               </person>
+               <person>
+                  <persName xml:id="Sth_001">Sthenelus</persName>
+               </person>
+               <person>
+                  <persName xml:id="Phi_002">Philoctetes</persName>
+               </person>
+               <person>
+                  <persName xml:id="Gun_001">Guneus</persName>
+               </person>
+               <person>
+                  <persName xml:id="Pro_003">Prothous</persName>
+               </person>
+               <person>
+                  <persName xml:id="Aga_002">Agapenor</persName>
+               </person>
+               <person>
+                  <persName xml:id="Men_002">Menestheus</persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="chapter" n="14">
+            <p>
+               <s>Deinde ornati cum classe Graeci <placeName ref="#Athe_001">Athenas</placeName>
+                  convenerunt:</s>
+               <s><persName ref="#Aga_001">Agamemnon</persName> ex <placeName ref="#Myce_001"
+                     >Mycenis</placeName> cum navibus numero <num type="ship" value="100"
+                  >C</num>,</s>
+               <s><persName ref="#Men_001">Menelaus</persName> ex <placeName ref="#Spar_001"
+                     >Sparta</placeName> cum navibus numero <num type="ship" value="60">LX</num>, </s>
+               <s><persName ref="#Arc_001">Arcesilaus</persName> et <persName ref="#Pro_001"
+                     >Prothenor</persName> ex <placeName ref="#Boeo_001">Boeotia</placeName> cum
+                  navibus numero <num type="ship" value="30">XXX</num>,</s>
+               <s><persName ref="#Asc_001">Ascalaphus</persName> et <persName ref="#Ial_001"
+                     >Ialmenusus</persName> ex <placeName ref="#Orch_001">Orchomeno</placeName> cum
+                  navibus numero <num type="ship" value="30">XXX</num>,</s>
+               <s><persName ref="#Epi_001">Epistrophus</persName> et <persName ref="#Sch_001"
+                     >Schedius</persName> ex <placeName ref="#Phoc_001">Phocide</placeName> cum
+                  navibus <num type="ship" value="40">XL</num>,</s>
+               <s><persName ref="#Aia_001">Aiax Telamonius</persName> ex <placeName ref="#Sala_001"
+                     >Salamina</placeName> adduxit secum <persName ref="#Teu_001">Teucrum</persName>
+                  fratrem, ex <placeName ref="Bupr_001">Buprasione</placeName>
+                  <persName ref="#Amp_001">Amphimachum</persName>
+                  <persName ref="#Dio_001">Diorem</persName>
+                  <persName ref="#Tha_001">Thalpium</persName>
+                  <persName ref="#Pol_001">Polyxenum</persName> cum navibus numero <num type="ship"
+                     value="40">XL</num>. </s>
+               <s><persName ref="#Nes_001">Nestor</persName> ex <placeName ref="#Pylo_001"
+                     >Pylo</placeName> cum navibus numero <num type="ship" value="80">LXXX</num>, </s>
+               <s><persName ref="#Tho_001">Thoas</persName> ex <placeName ref="Aeto_001"
+                     >Aetolia</placeName> cum navibus numero <num type="ship" value="40"
+                  >XL</num>,</s>
+               <s><persName ref="#Nie_001">Nierus</persName> ex <placeName ref="#Syme_001"
+                     >Syme</placeName> cum navibus numero <num type="ship" value="53"
+                  >LIII</num>,</s>
+               <s><persName ref="#Aia_002">Aiax Oileus</persName> ex <placeName ref="#Locr_001"
+                     >Locris</placeName> cum navibus numero <num type="ship" value="37"
+                  >XXXVII</num>. </s>
+               <s><persName ref="#Ant_001">Antiphus</persName> et <persName ref="#Phi_001"
+                     >Phidippus</persName> ex <placeName ref="#Caly_001">Calydna</placeName> cum
+                  navibus numero <num type="ship" value="30">XXX</num>. </s>
+               <s><persName ref="#Ido_001">Idomeneus</persName> et <persName ref="#Mer_001"
+                     >Meriones</persName> ex <placeName ref="#Cret_001">Creta</placeName> cum
+                  navibus numeo <num type="ship" value="80">LXXX</num>.</s>
+               <s>
+                  <persName ref="#Uli_001">Ulixes</persName> ex <placeName ref="#Itha_001"
+                     >Ithaca</placeName> cum navibus numero <num type="ship" value="12"
+                  >XII</num>,</s>
+               <s><persName ref="#Eum_001">Eumelus</persName> ex <placeName ref="#Pher_001"
+                     >Pheris</placeName> cum navibus numero <num type="ship" value="10">X</num>,</s>
+               <s><persName ref="#Pro_002">Protesilaus</persName> et <persName ref="#Pod_001"
+                     >Podacres</persName> ex <placeName ref="#Phyl_001">Phylaca</placeName> cum
+                  navibus numero <num type="ship" value="40">XL</num>.</s>
+               <s>
+                  <persName ref="#Pod_002">Podalirius</persName> et <persName ref="#Mac_001"
+                     >Machaon</persName> Aesculapii filii ex <placeName ref="#Tric_001"
+                     >Tricca</placeName> cum navibus numero <num type="ship" value="32"
+                  >XXXII</num>,</s>
+               <s><persName ref="#Ach_001">Achilles</persName> cum <persName ref="#Pat_001"
+                     >Patroclo</persName> et Myrmidonibus ex <placeName ref="#Phth_001"
+                     >Phthia</placeName> cum navibus numero <num type="ship" value="50">L</num>.</s>
+               <s><persName ref="#Tle_001">Tlepolemus</persName> ex <placeName ref="#Rhod_001"
+                     >Rhodo</placeName> cum navibus numero <num type="ship" value="9">IX</num>,</s>
+               <s><persName ref="#Eur_001">Eurypylus</persName> ex <placeName ref="#Orme_001"
+                     >Ormenio</placeName> navibus numero <num type="ship" value="40">XL</num>,</s>
+               <s><persName ref="#Ant_002">Antiphus</persName> et <persName ref="#Amp_002"
+                     >Amphimachus</persName> ex <placeName ref="#Elid_001">Elide</placeName> navibus
+                  numero <num type="ship" value="11">XI</num>,</s>
+               <s><persName ref="#Pol_002">Polypoetes</persName> et <persName ref="#Leo_001"
+                     >Leonteus</persName> ex <placeName ref="#Argi_001">Argisa</placeName> navibus
+                  numero <num type="ship" value="40">XL</num>,</s>
+               <s><persName ref="#Dio_002">Diomedes</persName>
+                  <persName ref="#Eur_002">Euryalus</persName>
+                  <persName ref="#Sth_001">Sthenelus</persName> ex <placeName ref="#Argi_002"
+                     >Argis</placeName> navibus numero <num type="ship" value="80">LXXX</num>, </s>
+               <s><persName ref="#Phi_002">Philoctetes</persName> ex <placeName ref="#Meli_001"
+                     >Melibea</placeName> navibus numero <num type="ship" value="7">VII</num>,</s>
+               <s><persName ref="Gun_001">Guneus</persName> ex <placeName ref="#Cyph_001"
+                     >Cypho</placeName> navibus numero <num type="ship" value="21">XXI</num>,</s>
+               <s>
+                  <persName ref="#Pro_003">Prothous</persName> ex <placeName ref="#Magn_001"
+                     >Magnesia</placeName> navibus numero <num type="ship" value="40">XL</num>,</s>
+               <s><persName ref="#Aga_002">Agapenor</persName> ex <placeName ref="#Arca_001"
+                     >Arcadia</placeName> navibus numero <num type="ship" value="40">XL</num>. </s>
+               <s>
+                  <persName ref="#Men_002">Menestheus</persName> ex <placeName ref="#Athe_001"
+                     >Athenis</placeName> navibus numero <num type="ship" value="50">L</num>.</s>
+               <s>Hi fuerunt duces Graecorum numero XLVIII, qui adduxereunt naves numero mille CXXX.
+               </s></p>
+         </div>
+      </body>
+   </text>
+</TEI>
