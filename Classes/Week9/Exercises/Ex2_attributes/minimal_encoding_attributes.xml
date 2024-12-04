@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title></title>
+        </titleStmt>
+        <publicationStmt>
+      <publisher></publisher>
+        </publicationStmt>
+        <sourceDesc>
+           <p>Based on <title type="uniform">A uniform title of a work</title>.</p>
+        </sourceDesc>
+    </fileDesc>
+</teiHeader>   
+    <text>
+        <body>
+            <div type="section">
+             <p>
+                 This is my paragraph of a text describing various animals, among them some cats, such as Garfield, Freya's cat, etc.
+             </p>
+            </div>
+        </body>
+    </text>
+</TEI>

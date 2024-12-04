@@ -1,0 +1,93 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TNAH Customisation</title>
+        <author>Katarzyna Anna Kapitan</author>
+      </titleStmt>
+      <publicationStmt>
+       <authority>Katarzyna Anna Kapitan</authority>
+        <availability status="free">
+          <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under a Creative
+            Commons Attribution-ShareAlike 4.0 </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p> Based on "odd_quickstart_template.xml" and "TBEcustom-1-minimal.odd".</p>
+        <p> The file "odd_quickstart_template.xml" by Syd Bauman can be downloaded from the ODD templates on <ref type="URL">https://www.wwp.neu.edu/outreach/seminars/uvic_advanced_2016/index.html</ref>.</p>
+        <p> The file "TBEcustom-1-minimal.odd" by James Cummings can be downloaded from <ref type="URL">https://teibyexample.org/exist/download/TBEcustom-1-minimal.odd</ref>.</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="KAK" when="2024-11-28">Created the file based on customisations by Syd Bauman and James Cummings.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+<!-- HERE STARTS THE PROSE DESCRIPTION OF YOUR CUSTOMISATION -->
+      <head>A TNAH TEI Customization</head>
+      <p>This TEI ODD defines a TEI customization for TNAH. 
+        It includes the five elements from the header module:
+        <list rend="numbered">
+          <item>
+            <gi>teiHeader</gi> from the header module to store required metadata</item>
+          <item>
+            <gi>fileDesc</gi> from the header module to record information about this file</item>
+          <item>
+            <gi>titleStmt</gi> from the header module to record information about the title</item>
+          <item>
+            <gi>publicationStmt</gi> from the header module to detail how it is published</item>
+          <item>
+            <gi>sourceDesc</gi> from the header module to record where it is from</item>
+        </list>
+        
+        It also contains the entire "core" module and the entire "tei" module. 
+        Finally it also includes most of the elements from the "textstructure" module, but with a modification to exclude the numbered divs 1-7, as
+        we rather want to use simple <gi>div</gi>s with <att>type</att>. 
+        We also exclude <gi>back</gi> and <gi>front</gi> as we want our main encoding to be stored in the <gi>body</gi>.
+      </p>
+<!-- HERE ENDS THE PROSE DESCRIPTION OF YOUR CUSTOMISATION -->
+      
+<!-- HERE STARTS YOUR ACTUAL CUSTOMISATION -->
+      <schemaSpec ident="TNAH_customisation"><!-- Give it a name. -->
+        <desc>A minimal customisation for the students of TNAH at ENC.</desc><!-- Write a short description. -->
+        
+<!-- HERE YOU START LOADING YOUR MODULES -->
+        <moduleRef key="core"/><!-- This loads the entire "core" module, described in Chapter 3 of the Guidelines https://tei-c.org/release/doc/tei-p5-doc/en/html/CO.html  -->
+        <moduleRef key="tei"/><!-- This load the entire "tei" module, described in Chapter 1 https://tei-c.org/release/doc/tei-p5-doc/en/html/ST.html -->
+        <moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt sourceDesc"/><!-- This loads only selected elements (teiHeader fileDesc titleStmt publicationStmt sourceDesc) from the "header" module, described in Chapter 2 https://tei-c.org/release/doc/tei-p5-doc/en/html/HD.html -->
+        <moduleRef key="textstructure" except="div1 div2 div3 div4 div5 div6 div7 back front" /><!-- This loads the "entire" textstructure module except specific elements, described in Chapter 4 https://tei-c.org/release/doc/tei-p5-doc/en/html/DS.html -->
+        <moduleRef key="namesdates"/><!-- This loads the entire "namesdates" module -->
+        
+        
+<!-- CHANGING EXISTING TEI ELEMENTS AND THEIR ATTRIBUTES -->
+        <!-- Here starts a customisation of <title>, which is part of the "core" module -->
+        <elementSpec ident="title" mode="change" module="core">
+          <!-- This specification changes some of the attributes of <title>; everything else stays the same. -->
+          <!-- First way of defining attributes of an element is by subscribing an element to a specific attribute class: -->
+          <classes>
+            <memberOf key="att.global"/><!-- Here we spcify that <title> can have all the attributes included in the class "att.global" -->
+          </classes>
+          <attList>
+           <!-- You can also change existing attributes: -->
+            <!-- In this part we replace the specification of <att>type</att> used on <gi>title</gi>. 
+                We make this attribute recommended (usage = "rec"). 
+                We create a closed list of attribute values, so that any title with <att>type</att> can be either <val>uniform</val> or <val>supplied</val>. -->
+            <attDef ident="type" mode="replace" usage="rec">
+              <desc>The <att>type</att> attribute contains information about some defined typology, in our project when <att>type</att> is used on <gi>title</gi> we recomend distinguishing between <val>uniform</val> and <val>supplied</val> titles.</desc>
+              <datatype>
+                <dataRef key="teidata.enumerated"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="uniform"/>
+                <valItem ident="supplied"/>
+              </valList>
+            </attDef>
+            <attDef ident="level" mode="delete"/><!--In this part we delete <att>level</att> from <gi>title</gi>, as we don't distinguish different levels of titles in our project -->
+        </attList>
+        </elementSpec>
+        <!-- Here ends our customisation of <title> -->
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>

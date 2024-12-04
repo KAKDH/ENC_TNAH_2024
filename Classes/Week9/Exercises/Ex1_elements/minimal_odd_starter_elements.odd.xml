@@ -1,0 +1,103 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TNAH Customisation</title>
+        <author>Katarzyna Anna Kapitan</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Katarzyna Anna Kapitan</authority>
+        <availability status="free">
+          <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under a
+            Creative Commons Attribution-ShareAlike 4.0 </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p> Based on "odd_quickstart_template.xml" and "TBEcustom-1-minimal.odd".</p>
+        <p> The file "odd_quickstart_template.xml" by Syd Bauman can be downloaded from the ODD
+          templates on <ref type="URL"
+            >https://www.wwp.neu.edu/outreach/seminars/uvic_advanced_2016/index.html</ref>.</p>
+        <p> The file "TBEcustom-1-minimal.odd" by James Cummings can be downloaded from <ref
+            type="URL">https://teibyexample.org/exist/download/TBEcustom-1-minimal.odd</ref>.</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="KAK" when="2024-11-28">Created the file based on customisations by Syd Bauman and
+        James Cummings.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <!-- HERE STARTS THE DESCRIPTION OF OUR CUSTOMISATION -->
+      <head>A TNAH TEI Customization</head>
+      <p>This TEI ODD defines a TEI customization for TNAH. It includes the seven elements from the
+        header module: <list rend="numbered">
+          <item><gi>teiHeader</gi> from the "header" module to store required metadata</item>
+          <item><gi>fileDesc</gi> from the "header" module to record information about this file</item>
+          <item><gi>titleStmt</gi> from the "header" module to record information about the title</item>
+          <item><gi>publicationStmt</gi> from the "header" module to detail how it is published</item>
+          <item><gi>authority</gi> from the "header" module to specify who published it</item>
+          <item><gi>availability</gi> from the "header" module to specify how the file can be
+            reused</item>
+          <item><gi>sourceDesc</gi> from the "header" module to record where it is derived from</item>
+        </list> It also contains the entire "core" module and the entire "tei" module. Finally, it
+        also includes almost everything from the "textstructure" module, but with a modification to
+        exclude the front matter <gi>front</gi>, back matter <gi>back</gi>, and the numbered divs
+        1-7 (<gi>div1</gi>, <gi>div2</gi>, <gi>div3</gi>, <gi>div4</gi>, <gi>div5</gi>,
+          <gi>div6</gi>, <gi>div7</gi>). We rather want to use simple <gi>div</gi>s with
+          <att>type</att> and encode eveything in the <gi>body</gi>. </p>
+      
+<!-- HERE STARTS THE ACTUAL CUSTOMISATION -->      
+      <schemaSpec ident="TNAH_customisation">
+        <desc>A minimal customisation for the students of TNAH at ENC.</desc>
+        <moduleRef key="core"/>
+        <!-- This loads the entire "core" module, described in Chapter 3 of the Guidelines https://tei-c.org/release/doc/tei-p5-doc/en/html/CO.html  -->
+        <moduleRef key="tei"/>
+        <!-- This load the entire "tei" module, described in Chapter 1 https://tei-c.org/release/doc/tei-p5-doc/en/html/ST.html -->
+        <moduleRef key="header"
+          include="teiHeader fileDesc titleStmt publicationStmt authority availability sourceDesc"/>
+        <!-- This loads only selected elements (teiHeader fileDesc titleStmt publicationStmt sourceDesc) from the "header" module, described in Chapter 2 https://tei-c.org/release/doc/tei-p5-doc/en/html/HD.html -->
+        <moduleRef key="textstructure" except="back front div1 div2 div3 div4 div5 div6 div7"/>
+        <!-- This loads the "entire" textstructure module, described in Chapter 4 https://tei-c.org/release/doc/tei-p5-doc/en/html/DS.html -->
+
+
+
+<!-- START ELEMENT SPECIFICATION -->
+        <!-- Here we replace the specification of <publicationStmt> from "header".  -->
+        <elementSpec ident="publicationStmt" mode="replace" module="header">
+         <!-- Here we describe our element -->
+          <desc>contains info about publication of this file. In our project <gi>publicationStmt</gi> must contain a sequence of
+            two elements: <gi>authority</gi> and <gi>availability</gi> as children. No other elements are allowed. </desc>
+          <content>
+            <!-- Here we define content of our element -->
+            <sequence><!-- We want a sequence of the elements listed below -->
+              <elementRef key="authority" minOccurs="1" maxOccurs="1"/><!-- We want exactly one authority -->
+              <elementRef key="availability" minOccurs="1" maxOccurs="1"/><!-- We want exactly one availability -->
+            </sequence>
+          </content>
+          <exemplum>
+            <!-- Here you create a minimal encoding example that uses this element -->
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <publicationStmt>
+                <authority>Katarzyna Anna Kapitan</authority>
+                <availability>Free to reuse under CC-By 4.0 licence.</availability>
+              </publicationStmt>
+            </egXML>
+          </exemplum>
+        </elementSpec>
+<!-- END ELEMENT SPECIFICATION -->
+        
+        
+        
+        <elementSpec ident="availability" mode="change" module="header">
+          <content>
+         <textNode/>
+             
+           
+          </content>
+        </elementSpec>
+        
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>
