@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This example is from Syd Bauman and Brown WWP Tutorials, it is available under the terms of the Creative Commons Attribution-ShareAlike 3.0 (Unported) license -->
+<?xml-model href="out/myGenerated.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/myGenerated.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>
+            <lg type="limerick" rhyme="aabba">
+               <head>Warp Speed, Ms Bright!</head>
+               <l>There was a young lady named <rhyme label="a">Bright</rhyme>,</l>
+               <l>Who travelled much faster than <rhyme label="a">light</rhyme>,</l>
+               <l>She departed one <rhyme label="b">day</rhyme>,</l>
+               <l>In a <term xml:id="t17">relative</term> way <rhyme label="b">way</rhyme>,</l>
+               <l>And returned on the previous <rhyme label="a">night</rhyme>.</l>
+               <l> An additional line. </l>
+               <note target="#t17">See <ptr target="http://en.wikipedia.org/wiki/Theory_of_relativity"/>.</note>
+            </lg>
+         </p>
+      </body>
+  </text>
+</TEI>
