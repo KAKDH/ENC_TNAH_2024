@@ -15,3 +15,4 @@ editions of texts and catalogue entries for manuscripts.
 **Teacher:** Dr Katarzyna Anna Kapitan
 
 
+**New hand-in date for the final:** Monday,20 January 2025, 23:59 (Paris time).
